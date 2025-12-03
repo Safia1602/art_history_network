@@ -1,0 +1,3786 @@
+{
+  "nodes": [
+    {
+      "id": "name_90629694f921354463f13f270e43c4cd",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Michigan",
+      "label": "achim timmermann"
+    },
+    {
+      "id": "name_71b66a127113722288220244f09d324f",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Stanford",
+      "label": "adam tobin"
+    },
+    {
+      "id": "name_e9080dc4627d1090946eefd8f0f98eac",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Williams",
+      "label": "aida laleian"
+    },
+    {
+      "id": "name_af9acf4a263f9e3e66f315c6571cadb4",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Stanford",
+      "label": "alexander nemerov"
+    },
+    {
+      "id": "name_2d40b01cf735ad13f1c5170def3e3f72",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Harvard",
+      "label": "alina payne"
+    },
+    {
+      "id": "name_694396d905f26a4d8af53e6873484009",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "BYU",
+      "label": "allen j. christenson"
+    },
+    {
+      "id": "name_fe90a361271f17ae9cf845383d480216",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Williams",
+      "label": "alyssa sakina pheobus"
+    },
+    {
+      "id": "name_a5f9b58f6702f986b0b15d05b2e3c93c",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Williams",
+      "label": "amy a. mckenna"
+    },
+    {
+      "id": "name_7d494e783a5ae9ffdc1ffeefcabd3d3c",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Williams",
+      "label": "amy d. podmore"
+    },
+    {
+      "id": "name_5e09303ee56da81048f5f634e7a4c344",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Rice",
+      "label": "ana m. franco"
+    },
+    {
+      "id": "name_c7b16f369ac8973ede5c63df935a3c90",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "BYU",
+      "label": "angela wescott"
+    },
+    {
+      "id": "name_bf81b70bc99354313dc4636239307877",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "BYU",
+      "label": "anthony wood"
+    },
+    {
+      "id": "name_befdd007a444631204954745c860a8c8",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Williams",
+      "label": "aparna sarkar"
+    },
+    {
+      "id": "name_b62d5711a491e93c46f44f3fa7100074",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Williams",
+      "label": "barbara e. takenaga"
+    },
+    {
+      "id": "name_e4c0514622988577691203865a352746",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Williams",
+      "label": "ben benedict"
+    },
+    {
+      "id": "name_f6dc16f97fe5736046327fefbc6d865e",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Williams",
+      "label": "beverly j. sylvester"
+    },
+    {
+      "id": "name_c04e1cfbc4088e8032c2b88ce2d850cc",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Stanford",
+      "label": "bissera pentcheva"
+    },
+    {
+      "id": "name_9be1d5429155922330d9ceb41f85522b",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Michigan",
+      "label": "brendan mcmahon"
+    },
+    {
+      "id": "name_3580a43d87d6515d5a2ef659cc5fb720",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Michigan",
+      "label": "bryan k. miller"
+    },
+    {
+      "id": "name_ee4781e87bf79ae08ad861ecf535d78d",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Stanford",
+      "label": "camille utterback"
+    },
+    {
+      "id": "name_466a0017a42449ff9a5a35d28233892a",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "BYU",
+      "label": "carl h. sederholm"
+    },
+    {
+      "id": "name_4b4dd45dbbcaa6e06e4e8aad3cb6d20c",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Williams",
+      "label": "carol ockman"
+    },
+    {
+      "id": "name_2c9f9918f090b2f2ea141ace709acee1",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Harvard",
+      "label": "carrie lambert-beatty"
+    },
+    {
+      "id": "name_b62aa650ae37b98c9261e16401619868",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Williams",
+      "label": "catherine n. howe"
+    },
+    {
+      "id": "name_352111d4cc845c8811c778ebc77439c6",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Williams",
+      "label": "cecilia aldarondo"
+    },
+    {
+      "id": "name_8839edd283ae48ec0100c8b7bcbf771c",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "BYU",
+      "label": "cecilia peek"
+    },
+    {
+      "id": "name_dba787e0f3d6b1c06f5e923f120998b7",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "BYU",
+      "label": "charles w. oughton"
+    },
+    {
+      "id": "name_166b4d4cdc3a91da6bd6d29f1dc345db",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "BYU",
+      "label": "charlotte a stanford"
+    },
+    {
+      "id": "name_1c6cb634b72116d3be6c8a55a69409f3",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "BYU",
+      "label": "cheri pitcher"
+    },
+    {
+      "id": "name_2cdf49afbbf43648c2bdf3a32be715aa",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Williams",
+      "label": "chris parkinson"
+    },
+    {
+      "id": "name_9986b83ae8bb911feef5d89767b32aa0",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Michigan",
+      "label": "christiane gruber"
+    },
+    {
+      "id": "name_89ba17c77593376a306a1bc04240782f",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Harvard",
+      "label": "christina maranci"
+    },
+    {
+      "id": "name_479d8c6db80e47f6f462105bca50d321",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "BYU",
+      "label": "christine hale"
+    },
+    {
+      "id": "name_8ce94639542c5470b5a93e0536e610a1",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "BYU",
+      "label": "christopher haney"
+    },
+    {
+      "id": "name_c64eaa4705e3b10e3aa31200a5e79347",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "BYU",
+      "label": "christopher oscarson"
+    },
+    {
+      "id": "name_ff11f6234e60f170b8c9da4b2a22c529",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Harvard",
+      "label": "cã©cile fromont"
+    },
+    {
+      "id": "name_40b13cb02354a7763edace92fb5f43b3",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Williams",
+      "label": "dalila sanabria"
+    },
+    {
+      "id": "name_c4c189ed66c1e25e97fb78a8dc143436",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Williams",
+      "label": "daniel goudrouffe"
+    },
+    {
+      "id": "name_d5734a6decf398060d5ae01e65cb13e6",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Michigan",
+      "label": "daniel herwitz"
+    },
+    {
+      "id": "name_24ed488bf6416bbc1107fb74a923c565",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Michigan",
+      "label": "david doris"
+    },
+    {
+      "id": "name_eff53664f1708a2aa827f85f2ef69b4f",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Harvard",
+      "label": "david roxburgh"
+    },
+    {
+      "id": "name_98658c0ed14df28d9b486f30bc4102c7",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "BYU",
+      "label": "douglas cunningham"
+    },
+    {
+      "id": "name_9173145384eb3d4c96bf781752b8f273",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Williams",
+      "label": "ed epping"
+    },
+    {
+      "id": "name_e1c77e5f5fe4a8b75c389e1032bc542f",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Williams",
+      "label": "elizabeth p. mcgowan"
+    },
+    {
+      "id": "name_d1e863e62dd3859bce6a9e2bf4b3cea8",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "BYU",
+      "label": "elliott d. wise"
+    },
+    {
+      "id": "name_dd76fc42f12f73acb324b9054a16cc21",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Rice",
+      "label": "emami"
+    },
+    {
+      "id": "name_996aa010416c0d0e275596d893473132",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Stanford",
+      "label": "emanuele lugli"
+    },
+    {
+      "id": "name_31d75bb164bfe82c9ae00ca285cb389f",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Williams",
+      "label": "emily v. leon"
+    },
+    {
+      "id": "name_099b934579b22fa0e70a36044d2e9dbf",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Stanford",
+      "label": "enrique chagoya"
+    },
+    {
+      "id": "name_0b3713d493c4becc0fdc02d0b5f87854",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "BYU",
+      "label": "erik yingling"
+    },
+    {
+      "id": "name_d05cbfe5197052476ece7f69cc8e626e",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Williams",
+      "label": "eugene j. johnson"
+    },
+    {
+      "id": "name_b6337fe78568180b43c6f71d4485b950",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Harvard",
+      "label": "eugene wang"
+    },
+    {
+      "id": "name_931cbe241720efc60912a2583f40eceb",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Harvard",
+      "label": "eurydice georganteli"
+    },
+    {
+      "id": "name_3ed4c0f81c2a52ff4d9bf0d391a0635b",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Williams",
+      "label": "eva u. grudin"
+    },
+    {
+      "id": "name_87ca6c1a62bd77e2c90e23916c8ed2c0",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Harvard",
+      "label": "ewa lajer-burcharth"
+    },
+    {
+      "id": "name_780b1e02c1eeaadd3812473bc0ef7d79",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Rice",
+      "label": "fabiola lópez-durán"
+    },
+    {
+      "id": "name_bdbe11a5a204844d1859c556ca1f8acb",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Rice",
+      "label": "fares el-dahdah"
+    },
+    {
+      "id": "name_c1c3f9a7e1cc071fb15fdf26c375588a",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Harvard",
+      "label": "felipe pereda"
+    },
+    {
+      "id": "name_53cd8d4a3a921eb790ad5a3d94132cff",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Rice",
+      "label": "gallant"
+    },
+    {
+      "id": "name_797dc0309d9d1720309e9ead6455e851",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "BYU",
+      "label": "george handley"
+    },
+    {
+      "id": "name_4f66d702937845ec89d5356d374d2151",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Williams",
+      "label": "gerald e. sheffield ii"
+    },
+    {
+      "id": "name_dca37ed52ce891e241412cb77d12964e",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Rice",
+      "label": "gordon hughes"
+    },
+    {
+      "id": "name_114adf916195278c4b2fbb89d246e011",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Rice",
+      "label": "graham bader"
+    },
+    {
+      "id": "name_a9ff1572dd570f941b2182b626c0e7af",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Williams",
+      "label": "guy m. hedreen"
+    },
+    {
+      "id": "name_2bca166de54525a8b4bbcd71c4e95806",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Harvard",
+      "label": "gã¼lru necipoälu"
+    },
+    {
+      "id": "name_4f6dc6e6a0595bc3e9559897824a113f",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Rice",
+      "label": "haley o'malley"
+    },
+    {
+      "id": "name_689addec65018da45591af92efa71c61",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "BYU",
+      "label": "heather belnap"
+    },
+    {
+      "id": "name_6bac03757dbedd32913264478b0d2bc0",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Williams",
+      "label": "holly edwards"
+    },
+    {
+      "id": "name_f0954e120635ea6eef00003b3b2ce2ac",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Michigan",
+      "label": "howard lay"
+    },
+    {
+      "id": "name_56563594d4aade9b2bb22f3834a337f2",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Harvard",
+      "label": "ioli kalavrezou"
+    },
+    {
+      "id": "name_de46b998022e1efdc6578e1c634ff3c8",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "BYU",
+      "label": "isaac king"
+    },
+    {
+      "id": "name_2f9efff9ef65cbd4e9a21f4c75b4d3ad",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "BYU",
+      "label": "james swensen"
+    },
+    {
+      "id": "name_e14b59ed8e27f62af5a715f332435cfb",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Stanford",
+      "label": "jamie meltzer"
+    },
+    {
+      "id": "name_c8f3b64d9ec72791ab13d6d4c49857e5",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "BYU",
+      "label": "jane hinckley"
+    },
+    {
+      "id": "name_87980381ee75c8f63e1dc70f239d2b16",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "BYU",
+      "label": "jason andrus"
+    },
+    {
+      "id": "name_41946b7cdc3554f162e1daf5885e4aaf",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Harvard",
+      "label": "jeffrey f. hamburger"
+    },
+    {
+      "id": "name_943cb6f7aadfc39670c2cd19056b6789",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Harvard",
+      "label": "jennifer roberts"
+    },
+    {
+      "id": "name_d3f078a90f1fc7fdf0ad3e6c43ad719c",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Harvard",
+      "label": "jinah kim"
+    },
+    {
+      "id": "name_3fa69e714b872ee8a7c08dcf40d4b3a0",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Stanford",
+      "label": "jody maxmin"
+    },
+    {
+      "id": "name_c12740b831247ce1123ad8f83eed7728",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Williams",
+      "label": "joe favini"
+    },
+    {
+      "id": "name_280d3ef154ad45f4050a6a1fd49bf1f8",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Rice",
+      "label": "joe manca"
+    },
+    {
+      "id": "name_36e64520345013b0648f2187a9bddffb",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Stanford",
+      "label": "jonathan calm"
+    },
+    {
+      "id": "name_9f37868f8ef802b67b6effce2bfe9ef0",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Harvard",
+      "label": "joseph koerner"
+    },
+    {
+      "id": "name_effd23bcc49fc57f9b26df9027bf7b5f",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "BYU",
+      "label": "joseph parry"
+    },
+    {
+      "id": "name_5e803c92f59b487f5495911b8ad7f114",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Stanford",
+      "label": "joshua i. cohen"
+    },
+    {
+      "id": "name_4f2c2299bbe584e41eda8e248941f121",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Williams",
+      "label": "ju-yu scarlett jang"
+    },
+    {
+      "id": "name_155f4505c426ce5ed6a9edfceca6eaaa",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Michigan",
+      "label": "julia elizabeth neal"
+    },
+    {
+      "id": "name_1ef9cd715b76aecd106c6e3d6817519f",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "BYU",
+      "label": "julie allen"
+    },
+    {
+      "id": "name_e4df0b79c16a96b0bbb140d91cf1a654",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Williams",
+      "label": "junli song"
+    },
+    {
+      "id": "name_d229ed780c4ec286e00afba293f632f0",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "BYU",
+      "label": "kalisha grimsman"
+    },
+    {
+      "id": "name_f9386a0dffdb5126c1711b749f7a4e41",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "BYU",
+      "label": "karen macfarlane"
+    },
+    {
+      "id": "name_7741048a54341833ece897c811b80209",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Stanford",
+      "label": "karla oeler"
+    },
+    {
+      "id": "name_fd590a38657e634815e2e48e031023c5",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "BYU",
+      "label": "kathryn isaak"
+    },
+    {
+      "id": "name_1066e10a7deac090d4df81094e1ea235",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "BYU",
+      "label": "kathy shaw"
+    },
+    {
+      "id": "name_35096facd33ec1d5145e09c8e5daa163",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "BYU",
+      "label": "kenneth hartvigsen"
+    },
+    {
+      "id": "name_297915b041df6659986bff61a91d1005",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Williams",
+      "label": "kern samuel"
+    },
+    {
+      "id": "name_109c6f75713031d1837f59125c7c2ba5",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "BYU",
+      "label": "kerry soper"
+    },
+    {
+      "id": "name_8ff39dae304b529e276e854db232362b",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Michigan",
+      "label": "kevin carr"
+    },
+    {
+      "id": "name_fcd2e8b05fb9569f0ea8fae6582cc7e8",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "BYU",
+      "label": "kristy rimmasch"
+    },
+    {
+      "id": "name_7dc5664d23d79b26ca39a2c99919fa7b",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Williams",
+      "label": "krystal e. difronzo"
+    },
+    {
+      "id": "name_c6d689037978b893f03da2872aef28fe",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "BYU",
+      "label": "larry h. peer"
+    },
+    {
+      "id": "name_5a3ce85e1be28bc6a7a32a81d91de16d",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "BYU",
+      "label": "laura hatch"
+    },
+    {
+      "id": "name_1196d21fba2f460746f3f30f0299b0df",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "BYU",
+      "label": "lauri haddock"
+    },
+    {
+      "id": "name_d73bd6d7ec46983940f7ad14f1ffffaf",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Williams",
+      "label": "laylah ali"
+    },
+    {
+      "id": "name_3c6785924ed13da9d1b3b93e52e13e1f",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Rice",
+      "label": "leo costello"
+    },
+    {
+      "id": "name_feb9a58c79fb88270181cdf5e68951dd",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Michigan",
+      "label": "lihong liu"
+    },
+    {
+      "id": "name_ae744621920d72da3cc0fcc35dd5e6f2",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "BYU",
+      "label": "lisa gunther"
+    },
+    {
+      "id": "name_f320b064a8990002d5ef5d8487ea5937",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Rice",
+      "label": "lori diel"
+    },
+    {
+      "id": "name_d712e853c6cd276ebfb4f42d204547fe",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "BYU",
+      "label": "luke drake"
+    },
+    {
+      "id": "name_9c4755c8c37ef8179fc8eb91ab590112",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Williams",
+      "label": "luke fischbeck"
+    },
+    {
+      "id": "name_743f6d83c1dd7bfd684c06a353d1b615",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Williams",
+      "label": "marc gotlieb"
+    },
+    {
+      "id": "name_1d7aebe85386a86fee0c0b6bb410a7db",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "BYU",
+      "label": "marc yamada"
+    },
+    {
+      "id": "name_7e67ef79074b73c2bc777b46711f40de",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Stanford",
+      "label": "marci kwon"
+    },
+    {
+      "id": "name_09c1f91eade7217e40fc5ded821f8ad4",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Williams",
+      "label": "mari rodriguez binnie"
+    },
+    {
+      "id": "name_c70317dfe9e7bd198d407b5f5e5d5754",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Harvard",
+      "label": "maria gough"
+    },
+    {
+      "id": "name_9a6465429e0e56d730eb685ccdd66650",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Williams",
+      "label": "mark haxthausen"
+    },
+    {
+      "id": "name_39f47bcf3318ad0928dd147681fb2783",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "BYU",
+      "label": "marlene hansen esplin"
+    },
+    {
+      "id": "name_1108362e649bf1d257987b509fd41785",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "BYU",
+      "label": "matthew ancell"
+    },
+    {
+      "id": "name_721f4a46e4f379f19c2c874696c90372",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Michigan",
+      "label": "matthew biro"
+    },
+    {
+      "id": "name_83b7d8ee520402f64d28eba048bb7c9a",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Williams",
+      "label": "megan p. mazza"
+    },
+    {
+      "id": "name_ba142f877216e3743431cf2ec5fe4b17",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "BYU",
+      "label": "melanie allred"
+    },
+    {
+      "id": "name_6d2e55a99eab4b87cb1ee6be21e259e3",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Harvard",
+      "label": "melissa mccormick"
+    },
+    {
+      "id": "name_707af2a645fe7c765149eca8b1cf8c79",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Williams",
+      "label": "michael a. glier"
+    },
+    {
+      "id": "name_b3f71a53a93412111ec5bb419f6f01ae",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Williams",
+      "label": "michael conforti"
+    },
+    {
+      "id": "name_cd794da469f9071ee113b5c3c69fa0be",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "BYU",
+      "label": "michael easterling"
+    },
+    {
+      "id": "name_540ef2bfa41baf6f4a74d94b251fa560",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "BYU",
+      "label": "michael j. call"
+    },
+    {
+      "id": "name_45ee45ddc2983dfdd998c3ab11741c57",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Williams",
+      "label": "michael j. lewis"
+    },
+    {
+      "id": "name_44961315aa3888d1615d10c067b8d137",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Williams",
+      "label": "michelle m. apotsos"
+    },
+    {
+      "id": "name_3eb81a848f25a7a1847d4a87f8b6dd4c",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "BYU",
+      "label": "mike pope"
+    },
+    {
+      "id": "name_2e128650a4ebc881255bf93b6bb7d046",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Stanford",
+      "label": "morehshin allahyari"
+    },
+    {
+      "id": "name_3c86b6fec48a36e136f3a273d93f92f8",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Williams",
+      "label": "murad k. mumtaz"
+    },
+    {
+      "id": "name_052753fb7e5484b8c302f4e1d9b97afd",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Michigan",
+      "label": "nachiket chanchani"
+    },
+    {
+      "id": "name_14753691b6ec2b252e639d355cd291fe",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Stanford",
+      "label": "natalia almada"
+    },
+    {
+      "id": "name_850eea13dee2ea664550b319caa1a0b2",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "BYU",
+      "label": "natalie nielson"
+    },
+    {
+      "id": "name_ad0e5c441aa3ab5148431766da57ff6b",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "BYU",
+      "label": "natalie vaieland"
+    },
+    {
+      "id": "name_eb38e50442409baacf50de94562afc34",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "BYU",
+      "label": "nate kramer"
+    },
+    {
+      "id": "name_3db9c1e1c4ea8af51eabde2d0f1daab3",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Michigan",
+      "label": "nicola barham"
+    },
+    {
+      "id": "name_977687fb8bd376c6706516c889b35ddb",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Williams",
+      "label": "ohan breiding"
+    },
+    {
+      "id": "name_a04a480fc89a13e205fa22ad1a9818d4",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Rice",
+      "label": "olivia k. young"
+    },
+    {
+      "id": "name_f28dd0a862cd8e67e608cc431d49e502",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Rice",
+      "label": "oukaderova"
+    },
+    {
+      "id": "name_534aa90a48b06f89601dca50115d765f",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Williams",
+      "label": "pallavi sen"
+    },
+    {
+      "id": "name_08646f44bf82404c5087e967c4f338ff",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Michigan",
+      "label": "paroma chatterjee"
+    },
+    {
+      "id": "name_71355a243ceeed3927fb34f230f31974",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Stanford",
+      "label": "patricia blessing"
+    },
+    {
+      "id": "name_6c78b6e84f5b82e784f72720ddb5f3f9",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Harvard",
+      "label": "patricio del real"
+    },
+    {
+      "id": "name_e05a45d1193b586fe137eceb872ec707",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Stanford",
+      "label": "paul demarinis"
+    },
+    {
+      "id": "name_9f2cad955d00f4b74e13e126be42533f",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Stanford",
+      "label": "pavle levi"
+    },
+    {
+      "id": "name_9f7fa57fe5f576f4af4e7f71ddfc70ee",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Williams",
+      "label": "peter d. low"
+    },
+    {
+      "id": "name_a30f32b4d0ee9ab8816134789bfb3d80",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Michigan",
+      "label": "phoebe springstubb"
+    },
+    {
+      "id": "name_e1281595cbeab1601a5ce324603be764",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "BYU",
+      "label": "rachael givens johnson"
+    },
+    {
+      "id": "name_2d02a379098f4f834b2925bbc1ffe0af",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Michigan",
+      "label": "rattanamol singh johal"
+    },
+    {
+      "id": "name_00285eb7682d8f4b7aabd4be03994e41",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "BYU",
+      "label": "rebecca lloyd"
+    },
+    {
+      "id": "name_5a8ddee34833ef6369519cb1e5c38bc2",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Michigan",
+      "label": "rebecca zurier"
+    },
+    {
+      "id": "name_16696327a6f686bf93be669510770f38",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Stanford",
+      "label": "richard meyer"
+    },
+    {
+      "id": "name_8b1969c2332922f180920de770777a93",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Williams",
+      "label": "richard p. lescarbeau"
+    },
+    {
+      "id": "name_94cc74a74f839bd5145f5858bee19260",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Stanford",
+      "label": "richard vinograd"
+    },
+    {
+      "id": "name_a4272380c2e60d58c8b80a318c57192d",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Williams",
+      "label": "rit premnath"
+    },
+    {
+      "id": "name_dd67ec918289b19d6a9320d94d2f872e",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "BYU",
+      "label": "robert l. colson"
+    },
+    {
+      "id": "name_632843a3ec0057c3a08cbc6473308772",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Harvard",
+      "label": "robin kelsey"
+    },
+    {
+      "id": "name_e4102c750061601df0d1ff2e2fab924d",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "BYU",
+      "label": "roger t. macfarlane"
+    },
+    {
+      "id": "name_ec02a573f083831d518271f5c7178432",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Stanford",
+      "label": "rose salseda"
+    },
+    {
+      "id": "name_9220d0d3673e26b3e2971f5f5acc33f2",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Williams",
+      "label": "samantha pasapane"
+    },
+    {
+      "id": "name_3e86f3ff8dcef2ec7eb03308b18fa573",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Harvard",
+      "label": "sarah lewis"
+    },
+    {
+      "id": "name_146100ac2cf202425a1eebf670ae97c0",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Williams",
+      "label": "sarah rara"
+    },
+    {
+      "id": "name_866b2736f104fccbaa3daf756dc4b95e",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Williams",
+      "label": "sasha wortzel"
+    },
+    {
+      "id": "name_5245d86956a781bd337268e105a93e86",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Stanford",
+      "label": "scott bukatman"
+    },
+    {
+      "id": "name_581ac3ab1867697fc06c34fd32c54d62",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Harvard",
+      "label": "seth estrin"
+    },
+    {
+      "id": "name_bcbe680d917dff05d9e4002b54ac4bb3",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "BYU",
+      "label": "seth jeppesen"
+    },
+    {
+      "id": "name_778030e419211f1c82e4f340c0343ecc",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Stanford",
+      "label": "shane denson"
+    },
+    {
+      "id": "name_ddb342b1eb40d197956e63da4d8e6baa",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Harvard",
+      "label": "shawon kinew"
+    },
+    {
+      "id": "name_30f81a3ae0e8b7f1a8aecae9f6769180",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Rice",
+      "label": "sophie crawford-brown"
+    },
+    {
+      "id": "name_b35041db00de97dca56ef6ccec7436c1",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Stanford",
+      "label": "srdan keca"
+    },
+    {
+      "id": "name_9ffa2f4f925f2c74d21e0a1b8e4817da",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "BYU",
+      "label": "stan benfell"
+    },
+    {
+      "id": "name_01a828b793aea88a4876035b3e7d6673",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Williams",
+      "label": "stefanie solum"
+    },
+    {
+      "id": "name_b18d90bc7f6b0c196f66e71bb4555b8c",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "BYU",
+      "label": "stephen bay"
+    },
+    {
+      "id": "name_25c56f05a24ce334b7330b3ccc8aa2cb",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Williams",
+      "label": "steven p. levin"
+    },
+    {
+      "id": "name_f8ce13fc734ca265ffb63f1604d44d14",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Harvard",
+      "label": "suzanne preston blier"
+    },
+    {
+      "id": "name_cbbce1bf2384b87ef2ae9d345eb1f329",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Stanford",
+      "label": "terry berlier"
+    },
+    {
+      "id": "name_b70ec4f0f5ad6ad6ba6b519a2c53beba",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Harvard",
+      "label": "thomas b.f. cummins"
+    },
+    {
+      "id": "name_8127156db7de1dc17bf13bcebd21a0ec",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "BYU",
+      "label": "thomas wayment"
+    },
+    {
+      "id": "name_24d2fefa68cd04d8e77ec10a77f848f3",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Michigan",
+      "label": "tina bawden"
+    },
+    {
+      "id": "name_9e93a20719414f19f41251e3e9ce6982",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Williams",
+      "label": "trenton d. barnes"
+    },
+    {
+      "id": "name_758acaa1834e4e7d0dd7fd0f9555f262",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Stanford",
+      "label": "usha iyer"
+    },
+    {
+      "id": "name_18d304538065e1b6fbaea9e4fcd855ea",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Harvard",
+      "label": "vishal khandelwal"
+    },
+    {
+      "id": "name_d81ecdb21c5de475fb8645787666459f",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Williams",
+      "label": "willie binnie"
+    },
+    {
+      "id": "name_caeaf228d0864b21e0968e1aeeb68cb1",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Williams",
+      "label": "xiaotian yin"
+    },
+    {
+      "id": "name_fe3cc72d5984225bf1f3316596c49c75",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Stanford",
+      "label": "xiaoze xie"
+    },
+    {
+      "id": "name_7ac803884a3d3c250ded98a10b15152d",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Harvard",
+      "label": "yukio lippit"
+    },
+    {
+      "id": "name_4b37c6572f376a32314c502d11cefe77",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Williams",
+      "label": "ziliang liu"
+    },
+    {
+      "id": "name_5819cd2ba51fab701904cef38afd34dd",
+      "Type": "name",
+      "Occurrences Count": 1,
+      "university (type 1)": "Williams",
+      "label": "zirka z. filipczak"
+    },
+    {
+      "id": "openalextopicsstr_49819da924473012cd6c993e7471eeeb",
+      "Type": "openalex_topics_str",
+      "Occurrences Count": 1,
+      "university (type 1)": "n/a",
+      "label": "artist_degas"
+    },
+    {
+      "id": "openalextopicsstr_c0b1785182ab9000f6baeac257d6351b",
+      "Type": "openalex_topics_str",
+      "Occurrences Count": 1,
+      "university (type 1)": "n/a",
+      "label": "artist_delacroix"
+    },
+    {
+      "id": "openalextopicsstr_98a0b7987cd10f4158f06c6e93f5fd45",
+      "Type": "openalex_topics_str",
+      "Occurrences Count": 2,
+      "university (type 1)": "n/a",
+      "label": "artist_duchamp"
+    },
+    {
+      "id": "openalextopicsstr_d129fa1d78777f9415ec4e17412f50de",
+      "Type": "openalex_topics_str",
+      "Occurrences Count": 1,
+      "university (type 1)": "n/a",
+      "label": "artist_klein"
+    },
+    {
+      "id": "openalextopicsstr_78637f90002236b9a57ea9ba060a30cf",
+      "Type": "openalex_topics_str",
+      "Occurrences Count": 1,
+      "university (type 1)": "n/a",
+      "label": "artist_le_corbusier"
+    },
+    {
+      "id": "openalextopicsstr_a793059c30ef9320f3d332a7ee42d440",
+      "Type": "openalex_topics_str",
+      "Occurrences Count": 1,
+      "university (type 1)": "n/a",
+      "label": "artist_manet"
+    },
+    {
+      "id": "openalextopicsstr_2da99863a9b3faa8f71ff73f0cc52ea3",
+      "Type": "openalex_topics_str",
+      "Occurrences Count": 2,
+      "university (type 1)": "n/a",
+      "label": "artist_matisse"
+    },
+    {
+      "id": "openalextopicsstr_f00928d490087ac43601e9616879d29b",
+      "Type": "openalex_topics_str",
+      "Occurrences Count": 1,
+      "university (type 1)": "n/a",
+      "label": "artist_monet"
+    },
+    {
+      "id": "openalextopicsstr_e60f2c088bd8c55403a4923c01c1c5bb",
+      "Type": "openalex_topics_str",
+      "Occurrences Count": 1,
+      "university (type 1)": "n/a",
+      "label": "artist_picasso"
+    },
+    {
+      "id": "openalextopicsstr_47481c10b29f7bd2a62394fb9d808725",
+      "Type": "openalex_topics_str",
+      "Occurrences Count": 1,
+      "university (type 1)": "n/a",
+      "label": "artist_renoir"
+    },
+    {
+      "id": "openalextopicsstr_c186c5fa717382e3b19925974f765574",
+      "Type": "openalex_topics_str",
+      "Occurrences Count": 1,
+      "university (type 1)": "n/a",
+      "label": "artist_seurat"
+    },
+    {
+      "id": "openalextopicsstr_50e0eca756c35cff6595fb5924bf539b",
+      "Type": "openalex_topics_str",
+      "Occurrences Count": 11,
+      "university (type 1)": "n/a",
+      "label": "movement_abstract"
+    },
+    {
+      "id": "openalextopicsstr_f76ee532d1f71ba8a8fe0e8edefda295",
+      "Type": "openalex_topics_str",
+      "Occurrences Count": 1,
+      "university (type 1)": "n/a",
+      "label": "movement_conceptual_art"
+    },
+    {
+      "id": "openalextopicsstr_7a284a97e6ee421d971ac581d46dc32f",
+      "Type": "openalex_topics_str",
+      "Occurrences Count": 1,
+      "university (type 1)": "n/a",
+      "label": "movement_dada"
+    },
+    {
+      "id": "openalextopicsstr_f666dc8d010540ce8ab77a49be0985ae",
+      "Type": "openalex_topics_str",
+      "Occurrences Count": 1,
+      "university (type 1)": "n/a",
+      "label": "movement_impressionism"
+    },
+    {
+      "id": "openalextopicsstr_8832681f0d6f4c6bb1752b7b7fe5e970",
+      "Type": "openalex_topics_str",
+      "Occurrences Count": 2,
+      "university (type 1)": "n/a",
+      "label": "movement_surrealism"
+    },
+    {
+      "id": "openalextopicsstr_f05661c1601162110a09926ca948f0fc",
+      "Type": "openalex_topics_str",
+      "Occurrences Count": 2,
+      "university (type 1)": "n/a",
+      "label": "movement_symbolism"
+    },
+    {
+      "id": "openalextopicsstr_ab58029540e2f863a2d72cc1cd1623f7",
+      "Type": "openalex_topics_str",
+      "Occurrences Count": 20,
+      "university (type 1)": "n/a",
+      "label": "theme_architecture"
+    },
+    {
+      "id": "openalextopicsstr_b1950f2ad3283d3052d91244f7228479",
+      "Type": "openalex_topics_str",
+      "Occurrences Count": 7,
+      "university (type 1)": "n/a",
+      "label": "theme_archive"
+    },
+    {
+      "id": "openalextopicsstr_568afbb0e0619a68ce6cb1face7dee64",
+      "Type": "openalex_topics_str",
+      "Occurrences Count": 4,
+      "university (type 1)": "n/a",
+      "label": "theme_baroque"
+    },
+    {
+      "id": "openalextopicsstr_1bc2faaf550518e899cdd1d22958d7a8",
+      "Type": "openalex_topics_str",
+      "Occurrences Count": 17,
+      "university (type 1)": "n/a",
+      "label": "theme_cinema_film"
+    },
+    {
+      "id": "openalextopicsstr_d0882462544befec6cea405c5011ac3d",
+      "Type": "openalex_topics_str",
+      "Occurrences Count": 6,
+      "university (type 1)": "n/a",
+      "label": "theme_colonialism"
+    },
+    {
+      "id": "openalextopicsstr_4a6813ae2e33768ba9fa271763f059af",
+      "Type": "openalex_topics_str",
+      "Occurrences Count": 13,
+      "university (type 1)": "n/a",
+      "label": "theme_contemporary"
+    },
+    {
+      "id": "openalextopicsstr_d4f0a9a0b7d6fd22dbbd7d4519765bb9",
+      "Type": "openalex_topics_str",
+      "Occurrences Count": 13,
+      "university (type 1)": "n/a",
+      "label": "theme_digital_media"
+    },
+    {
+      "id": "openalextopicsstr_be2fa34d3afc3b8dd4174f014a79c947",
+      "Type": "openalex_topics_str",
+      "Occurrences Count": 10,
+      "university (type 1)": "n/a",
+      "label": "theme_empire"
+    },
+    {
+      "id": "openalextopicsstr_8919d085f14017d76545a81517378cc1",
+      "Type": "openalex_topics_str",
+      "Occurrences Count": 13,
+      "university (type 1)": "n/a",
+      "label": "theme_france"
+    },
+    {
+      "id": "openalextopicsstr_96a4ff3221dc0f7b3305d467248eb268",
+      "Type": "openalex_topics_str",
+      "Occurrences Count": 10,
+      "university (type 1)": "n/a",
+      "label": "theme_gender"
+    },
+    {
+      "id": "openalextopicsstr_04f1325a3ec020b1c610b0b829c2d1cf",
+      "Type": "openalex_topics_str",
+      "Occurrences Count": 16,
+      "university (type 1)": "n/a",
+      "label": "theme_medieval"
+    },
+    {
+      "id": "openalextopicsstr_cd94fac384d863addf1c724c3b694370",
+      "Type": "openalex_topics_str",
+      "Occurrences Count": 20,
+      "university (type 1)": "n/a",
+      "label": "theme_memory"
+    },
+    {
+      "id": "openalextopicsstr_a80343ca374ff9ca4cd4c35f66c5130c",
+      "Type": "openalex_topics_str",
+      "Occurrences Count": 9,
+      "university (type 1)": "n/a",
+      "label": "theme_migration"
+    },
+    {
+      "id": "openalextopicsstr_b070472e2144275c73a142a7ed796f3a",
+      "Type": "openalex_topics_str",
+      "Occurrences Count": 25,
+      "university (type 1)": "n/a",
+      "label": "theme_modern"
+    },
+    {
+      "id": "openalextopicsstr_2cc804523f06d0e3257bd35a8fd56fb3",
+      "Type": "openalex_topics_str",
+      "Occurrences Count": 20,
+      "university (type 1)": "n/a",
+      "label": "theme_museum"
+    },
+    {
+      "id": "openalextopicsstr_432b909e9679c898c242dd931cc894cb",
+      "Type": "openalex_topics_str",
+      "Occurrences Count": 21,
+      "university (type 1)": "n/a",
+      "label": "theme_painting"
+    },
+    {
+      "id": "openalextopicsstr_0e12b1470d30e2a4afa4adc5f2f8cf2d",
+      "Type": "openalex_topics_str",
+      "Occurrences Count": 7,
+      "university (type 1)": "n/a",
+      "label": "theme_photography"
+    },
+    {
+      "id": "openalextopicsstr_520d9d65898756651f9a71288912e9e5",
+      "Type": "openalex_topics_str",
+      "Occurrences Count": 10,
+      "university (type 1)": "n/a",
+      "label": "theme_race"
+    },
+    {
+      "id": "openalextopicsstr_e7cd347ee8ce96edca4daf8713900ad5",
+      "Type": "openalex_topics_str",
+      "Occurrences Count": 16,
+      "university (type 1)": "n/a",
+      "label": "theme_religion"
+    },
+    {
+      "id": "openalextopicsstr_223e2af631b1b7ce9801cafaca4664ce",
+      "Type": "openalex_topics_str",
+      "Occurrences Count": 12,
+      "university (type 1)": "n/a",
+      "label": "theme_renaissance"
+    },
+    {
+      "id": "openalextopicsstr_e3ddf0d46fdc9b383ef61fa1ef3ae254",
+      "Type": "openalex_topics_str",
+      "Occurrences Count": 13,
+      "university (type 1)": "n/a",
+      "label": "theme_sculpture"
+    }
+  ],
+  "links": [
+    {
+      "source": "name_90629694f921354463f13f270e43c4cd",
+      "target": "openalextopicsstr_ab58029540e2f863a2d72cc1cd1623f7",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_90629694f921354463f13f270e43c4cd",
+      "target": "openalextopicsstr_04f1325a3ec020b1c610b0b829c2d1cf",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_90629694f921354463f13f270e43c4cd",
+      "target": "openalextopicsstr_cd94fac384d863addf1c724c3b694370",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_af9acf4a263f9e3e66f315c6571cadb4",
+      "target": "openalextopicsstr_98a0b7987cd10f4158f06c6e93f5fd45",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_af9acf4a263f9e3e66f315c6571cadb4",
+      "target": "openalextopicsstr_ab58029540e2f863a2d72cc1cd1623f7",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_af9acf4a263f9e3e66f315c6571cadb4",
+      "target": "openalextopicsstr_b1950f2ad3283d3052d91244f7228479",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_af9acf4a263f9e3e66f315c6571cadb4",
+      "target": "openalextopicsstr_1bc2faaf550518e899cdd1d22958d7a8",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_af9acf4a263f9e3e66f315c6571cadb4",
+      "target": "openalextopicsstr_2cc804523f06d0e3257bd35a8fd56fb3",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_af9acf4a263f9e3e66f315c6571cadb4",
+      "target": "openalextopicsstr_432b909e9679c898c242dd931cc894cb",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_af9acf4a263f9e3e66f315c6571cadb4",
+      "target": "openalextopicsstr_0e12b1470d30e2a4afa4adc5f2f8cf2d",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_af9acf4a263f9e3e66f315c6571cadb4",
+      "target": "openalextopicsstr_520d9d65898756651f9a71288912e9e5",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_2d40b01cf735ad13f1c5170def3e3f72",
+      "target": "openalextopicsstr_78637f90002236b9a57ea9ba060a30cf",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_2d40b01cf735ad13f1c5170def3e3f72",
+      "target": "openalextopicsstr_ab58029540e2f863a2d72cc1cd1623f7",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_2d40b01cf735ad13f1c5170def3e3f72",
+      "target": "openalextopicsstr_568afbb0e0619a68ce6cb1face7dee64",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_2d40b01cf735ad13f1c5170def3e3f72",
+      "target": "openalextopicsstr_b070472e2144275c73a142a7ed796f3a",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_2d40b01cf735ad13f1c5170def3e3f72",
+      "target": "openalextopicsstr_432b909e9679c898c242dd931cc894cb",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_2d40b01cf735ad13f1c5170def3e3f72",
+      "target": "openalextopicsstr_223e2af631b1b7ce9801cafaca4664ce",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_2d40b01cf735ad13f1c5170def3e3f72",
+      "target": "openalextopicsstr_e3ddf0d46fdc9b383ef61fa1ef3ae254",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_694396d905f26a4d8af53e6873484009",
+      "target": "openalextopicsstr_f05661c1601162110a09926ca948f0fc",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_694396d905f26a4d8af53e6873484009",
+      "target": "openalextopicsstr_ab58029540e2f863a2d72cc1cd1623f7",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_694396d905f26a4d8af53e6873484009",
+      "target": "openalextopicsstr_4a6813ae2e33768ba9fa271763f059af",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_694396d905f26a4d8af53e6873484009",
+      "target": "openalextopicsstr_cd94fac384d863addf1c724c3b694370",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_694396d905f26a4d8af53e6873484009",
+      "target": "openalextopicsstr_e7cd347ee8ce96edca4daf8713900ad5",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_694396d905f26a4d8af53e6873484009",
+      "target": "openalextopicsstr_e3ddf0d46fdc9b383ef61fa1ef3ae254",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_5e09303ee56da81048f5f634e7a4c344",
+      "target": "openalextopicsstr_d4f0a9a0b7d6fd22dbbd7d4519765bb9",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_5e09303ee56da81048f5f634e7a4c344",
+      "target": "openalextopicsstr_cd94fac384d863addf1c724c3b694370",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_bf81b70bc99354313dc4636239307877",
+      "target": "openalextopicsstr_50e0eca756c35cff6595fb5924bf539b",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_befdd007a444631204954745c860a8c8",
+      "target": "openalextopicsstr_50e0eca756c35cff6595fb5924bf539b",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_e4c0514622988577691203865a352746",
+      "target": "openalextopicsstr_50e0eca756c35cff6595fb5924bf539b",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_e4c0514622988577691203865a352746",
+      "target": "openalextopicsstr_4a6813ae2e33768ba9fa271763f059af",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_e4c0514622988577691203865a352746",
+      "target": "openalextopicsstr_d4f0a9a0b7d6fd22dbbd7d4519765bb9",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_e4c0514622988577691203865a352746",
+      "target": "openalextopicsstr_a80343ca374ff9ca4cd4c35f66c5130c",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_c04e1cfbc4088e8032c2b88ce2d850cc",
+      "target": "openalextopicsstr_d129fa1d78777f9415ec4e17412f50de",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_c04e1cfbc4088e8032c2b88ce2d850cc",
+      "target": "openalextopicsstr_04f1325a3ec020b1c610b0b829c2d1cf",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_c04e1cfbc4088e8032c2b88ce2d850cc",
+      "target": "openalextopicsstr_b070472e2144275c73a142a7ed796f3a",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_c04e1cfbc4088e8032c2b88ce2d850cc",
+      "target": "openalextopicsstr_2cc804523f06d0e3257bd35a8fd56fb3",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_c04e1cfbc4088e8032c2b88ce2d850cc",
+      "target": "openalextopicsstr_432b909e9679c898c242dd931cc894cb",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_9be1d5429155922330d9ceb41f85522b",
+      "target": "openalextopicsstr_04f1325a3ec020b1c610b0b829c2d1cf",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_9be1d5429155922330d9ceb41f85522b",
+      "target": "openalextopicsstr_b070472e2144275c73a142a7ed796f3a",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_9be1d5429155922330d9ceb41f85522b",
+      "target": "openalextopicsstr_e7cd347ee8ce96edca4daf8713900ad5",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_3580a43d87d6515d5a2ef659cc5fb720",
+      "target": "openalextopicsstr_be2fa34d3afc3b8dd4174f014a79c947",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_ee4781e87bf79ae08ad861ecf535d78d",
+      "target": "openalextopicsstr_d4f0a9a0b7d6fd22dbbd7d4519765bb9",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_466a0017a42449ff9a5a35d28233892a",
+      "target": "openalextopicsstr_1bc2faaf550518e899cdd1d22958d7a8",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_466a0017a42449ff9a5a35d28233892a",
+      "target": "openalextopicsstr_4a6813ae2e33768ba9fa271763f059af",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_466a0017a42449ff9a5a35d28233892a",
+      "target": "openalextopicsstr_be2fa34d3afc3b8dd4174f014a79c947",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_466a0017a42449ff9a5a35d28233892a",
+      "target": "openalextopicsstr_96a4ff3221dc0f7b3305d467248eb268",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_466a0017a42449ff9a5a35d28233892a",
+      "target": "openalextopicsstr_cd94fac384d863addf1c724c3b694370",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_466a0017a42449ff9a5a35d28233892a",
+      "target": "openalextopicsstr_520d9d65898756651f9a71288912e9e5",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_466a0017a42449ff9a5a35d28233892a",
+      "target": "openalextopicsstr_e7cd347ee8ce96edca4daf8713900ad5",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_466a0017a42449ff9a5a35d28233892a",
+      "target": "openalextopicsstr_223e2af631b1b7ce9801cafaca4664ce",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_2c9f9918f090b2f2ea141ace709acee1",
+      "target": "openalextopicsstr_0e12b1470d30e2a4afa4adc5f2f8cf2d",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_352111d4cc845c8811c778ebc77439c6",
+      "target": "openalextopicsstr_4a6813ae2e33768ba9fa271763f059af",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_352111d4cc845c8811c778ebc77439c6",
+      "target": "openalextopicsstr_cd94fac384d863addf1c724c3b694370",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_166b4d4cdc3a91da6bd6d29f1dc345db",
+      "target": "openalextopicsstr_ab58029540e2f863a2d72cc1cd1623f7",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_166b4d4cdc3a91da6bd6d29f1dc345db",
+      "target": "openalextopicsstr_8919d085f14017d76545a81517378cc1",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_166b4d4cdc3a91da6bd6d29f1dc345db",
+      "target": "openalextopicsstr_04f1325a3ec020b1c610b0b829c2d1cf",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_166b4d4cdc3a91da6bd6d29f1dc345db",
+      "target": "openalextopicsstr_cd94fac384d863addf1c724c3b694370",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_166b4d4cdc3a91da6bd6d29f1dc345db",
+      "target": "openalextopicsstr_b070472e2144275c73a142a7ed796f3a",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_166b4d4cdc3a91da6bd6d29f1dc345db",
+      "target": "openalextopicsstr_2cc804523f06d0e3257bd35a8fd56fb3",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_166b4d4cdc3a91da6bd6d29f1dc345db",
+      "target": "openalextopicsstr_e7cd347ee8ce96edca4daf8713900ad5",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_166b4d4cdc3a91da6bd6d29f1dc345db",
+      "target": "openalextopicsstr_223e2af631b1b7ce9801cafaca4664ce",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_166b4d4cdc3a91da6bd6d29f1dc345db",
+      "target": "openalextopicsstr_e3ddf0d46fdc9b383ef61fa1ef3ae254",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_89ba17c77593376a306a1bc04240782f",
+      "target": "openalextopicsstr_ab58029540e2f863a2d72cc1cd1623f7",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_89ba17c77593376a306a1bc04240782f",
+      "target": "openalextopicsstr_be2fa34d3afc3b8dd4174f014a79c947",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_89ba17c77593376a306a1bc04240782f",
+      "target": "openalextopicsstr_04f1325a3ec020b1c610b0b829c2d1cf",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_89ba17c77593376a306a1bc04240782f",
+      "target": "openalextopicsstr_520d9d65898756651f9a71288912e9e5",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_8ce94639542c5470b5a93e0536e610a1",
+      "target": "openalextopicsstr_a80343ca374ff9ca4cd4c35f66c5130c",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_c64eaa4705e3b10e3aa31200a5e79347",
+      "target": "openalextopicsstr_1bc2faaf550518e899cdd1d22958d7a8",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_c64eaa4705e3b10e3aa31200a5e79347",
+      "target": "openalextopicsstr_2cc804523f06d0e3257bd35a8fd56fb3",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_d5734a6decf398060d5ae01e65cb13e6",
+      "target": "openalextopicsstr_98a0b7987cd10f4158f06c6e93f5fd45",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_d5734a6decf398060d5ae01e65cb13e6",
+      "target": "openalextopicsstr_a793059c30ef9320f3d332a7ee42d440",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_d5734a6decf398060d5ae01e65cb13e6",
+      "target": "openalextopicsstr_4a6813ae2e33768ba9fa271763f059af",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_d5734a6decf398060d5ae01e65cb13e6",
+      "target": "openalextopicsstr_a80343ca374ff9ca4cd4c35f66c5130c",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_d5734a6decf398060d5ae01e65cb13e6",
+      "target": "openalextopicsstr_b070472e2144275c73a142a7ed796f3a",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_d5734a6decf398060d5ae01e65cb13e6",
+      "target": "openalextopicsstr_2cc804523f06d0e3257bd35a8fd56fb3",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_d5734a6decf398060d5ae01e65cb13e6",
+      "target": "openalextopicsstr_432b909e9679c898c242dd931cc894cb",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_d5734a6decf398060d5ae01e65cb13e6",
+      "target": "openalextopicsstr_520d9d65898756651f9a71288912e9e5",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_d5734a6decf398060d5ae01e65cb13e6",
+      "target": "openalextopicsstr_223e2af631b1b7ce9801cafaca4664ce",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_24ed488bf6416bbc1107fb74a923c565",
+      "target": "openalextopicsstr_1bc2faaf550518e899cdd1d22958d7a8",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_24ed488bf6416bbc1107fb74a923c565",
+      "target": "openalextopicsstr_4a6813ae2e33768ba9fa271763f059af",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_24ed488bf6416bbc1107fb74a923c565",
+      "target": "openalextopicsstr_d4f0a9a0b7d6fd22dbbd7d4519765bb9",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_24ed488bf6416bbc1107fb74a923c565",
+      "target": "openalextopicsstr_8919d085f14017d76545a81517378cc1",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_24ed488bf6416bbc1107fb74a923c565",
+      "target": "openalextopicsstr_b070472e2144275c73a142a7ed796f3a",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_24ed488bf6416bbc1107fb74a923c565",
+      "target": "openalextopicsstr_520d9d65898756651f9a71288912e9e5",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_d1e863e62dd3859bce6a9e2bf4b3cea8",
+      "target": "openalextopicsstr_04f1325a3ec020b1c610b0b829c2d1cf",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_d1e863e62dd3859bce6a9e2bf4b3cea8",
+      "target": "openalextopicsstr_cd94fac384d863addf1c724c3b694370",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_d1e863e62dd3859bce6a9e2bf4b3cea8",
+      "target": "openalextopicsstr_b070472e2144275c73a142a7ed796f3a",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_dd76fc42f12f73acb324b9054a16cc21",
+      "target": "openalextopicsstr_1bc2faaf550518e899cdd1d22958d7a8",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_dd76fc42f12f73acb324b9054a16cc21",
+      "target": "openalextopicsstr_96a4ff3221dc0f7b3305d467248eb268",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_996aa010416c0d0e275596d893473132",
+      "target": "openalextopicsstr_4a6813ae2e33768ba9fa271763f059af",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_996aa010416c0d0e275596d893473132",
+      "target": "openalextopicsstr_8919d085f14017d76545a81517378cc1",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_996aa010416c0d0e275596d893473132",
+      "target": "openalextopicsstr_04f1325a3ec020b1c610b0b829c2d1cf",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_996aa010416c0d0e275596d893473132",
+      "target": "openalextopicsstr_2cc804523f06d0e3257bd35a8fd56fb3",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_996aa010416c0d0e275596d893473132",
+      "target": "openalextopicsstr_520d9d65898756651f9a71288912e9e5",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_996aa010416c0d0e275596d893473132",
+      "target": "openalextopicsstr_223e2af631b1b7ce9801cafaca4664ce",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_0b3713d493c4becc0fdc02d0b5f87854",
+      "target": "openalextopicsstr_2cc804523f06d0e3257bd35a8fd56fb3",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_d05cbfe5197052476ece7f69cc8e626e",
+      "target": "openalextopicsstr_ab58029540e2f863a2d72cc1cd1623f7",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_d05cbfe5197052476ece7f69cc8e626e",
+      "target": "openalextopicsstr_568afbb0e0619a68ce6cb1face7dee64",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_d05cbfe5197052476ece7f69cc8e626e",
+      "target": "openalextopicsstr_be2fa34d3afc3b8dd4174f014a79c947",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_d05cbfe5197052476ece7f69cc8e626e",
+      "target": "openalextopicsstr_223e2af631b1b7ce9801cafaca4664ce",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_b6337fe78568180b43c6f71d4485b950",
+      "target": "openalextopicsstr_96a4ff3221dc0f7b3305d467248eb268",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_931cbe241720efc60912a2583f40eceb",
+      "target": "openalextopicsstr_04f1325a3ec020b1c610b0b829c2d1cf",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_87ca6c1a62bd77e2c90e23916c8ed2c0",
+      "target": "openalextopicsstr_8919d085f14017d76545a81517378cc1",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_780b1e02c1eeaadd3812473bc0ef7d79",
+      "target": "openalextopicsstr_8919d085f14017d76545a81517378cc1",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_780b1e02c1eeaadd3812473bc0ef7d79",
+      "target": "openalextopicsstr_b070472e2144275c73a142a7ed796f3a",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_bdbe11a5a204844d1859c556ca1f8acb",
+      "target": "openalextopicsstr_ab58029540e2f863a2d72cc1cd1623f7",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_bdbe11a5a204844d1859c556ca1f8acb",
+      "target": "openalextopicsstr_b070472e2144275c73a142a7ed796f3a",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_c1c3f9a7e1cc071fb15fdf26c375588a",
+      "target": "openalextopicsstr_ab58029540e2f863a2d72cc1cd1623f7",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_c1c3f9a7e1cc071fb15fdf26c375588a",
+      "target": "openalextopicsstr_b070472e2144275c73a142a7ed796f3a",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_c1c3f9a7e1cc071fb15fdf26c375588a",
+      "target": "openalextopicsstr_432b909e9679c898c242dd931cc894cb",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_c1c3f9a7e1cc071fb15fdf26c375588a",
+      "target": "openalextopicsstr_e7cd347ee8ce96edca4daf8713900ad5",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_53cd8d4a3a921eb790ad5a3d94132cff",
+      "target": "openalextopicsstr_4a6813ae2e33768ba9fa271763f059af",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_53cd8d4a3a921eb790ad5a3d94132cff",
+      "target": "openalextopicsstr_520d9d65898756651f9a71288912e9e5",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_797dc0309d9d1720309e9ead6455e851",
+      "target": "openalextopicsstr_a80343ca374ff9ca4cd4c35f66c5130c",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_797dc0309d9d1720309e9ead6455e851",
+      "target": "openalextopicsstr_e7cd347ee8ce96edca4daf8713900ad5",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_dca37ed52ce891e241412cb77d12964e",
+      "target": "openalextopicsstr_a80343ca374ff9ca4cd4c35f66c5130c",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_dca37ed52ce891e241412cb77d12964e",
+      "target": "openalextopicsstr_b070472e2144275c73a142a7ed796f3a",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_114adf916195278c4b2fbb89d246e011",
+      "target": "openalextopicsstr_cd94fac384d863addf1c724c3b694370",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_114adf916195278c4b2fbb89d246e011",
+      "target": "openalextopicsstr_b070472e2144275c73a142a7ed796f3a",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_114adf916195278c4b2fbb89d246e011",
+      "target": "openalextopicsstr_432b909e9679c898c242dd931cc894cb",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_114adf916195278c4b2fbb89d246e011",
+      "target": "openalextopicsstr_0e12b1470d30e2a4afa4adc5f2f8cf2d",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_689addec65018da45591af92efa71c61",
+      "target": "openalextopicsstr_d0882462544befec6cea405c5011ac3d",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_689addec65018da45591af92efa71c61",
+      "target": "openalextopicsstr_be2fa34d3afc3b8dd4174f014a79c947",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_689addec65018da45591af92efa71c61",
+      "target": "openalextopicsstr_8919d085f14017d76545a81517378cc1",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_6bac03757dbedd32913264478b0d2bc0",
+      "target": "openalextopicsstr_50e0eca756c35cff6595fb5924bf539b",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_f0954e120635ea6eef00003b3b2ce2ac",
+      "target": "openalextopicsstr_c186c5fa717382e3b19925974f765574",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_f0954e120635ea6eef00003b3b2ce2ac",
+      "target": "openalextopicsstr_8919d085f14017d76545a81517378cc1",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_f0954e120635ea6eef00003b3b2ce2ac",
+      "target": "openalextopicsstr_b070472e2144275c73a142a7ed796f3a",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_c8f3b64d9ec72791ab13d6d4c49857e5",
+      "target": "openalextopicsstr_e7cd347ee8ce96edca4daf8713900ad5",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_87980381ee75c8f63e1dc70f239d2b16",
+      "target": "openalextopicsstr_d4f0a9a0b7d6fd22dbbd7d4519765bb9",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_41946b7cdc3554f162e1daf5885e4aaf",
+      "target": "openalextopicsstr_f05661c1601162110a09926ca948f0fc",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_41946b7cdc3554f162e1daf5885e4aaf",
+      "target": "openalextopicsstr_ab58029540e2f863a2d72cc1cd1623f7",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_41946b7cdc3554f162e1daf5885e4aaf",
+      "target": "openalextopicsstr_8919d085f14017d76545a81517378cc1",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_41946b7cdc3554f162e1daf5885e4aaf",
+      "target": "openalextopicsstr_04f1325a3ec020b1c610b0b829c2d1cf",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_41946b7cdc3554f162e1daf5885e4aaf",
+      "target": "openalextopicsstr_b070472e2144275c73a142a7ed796f3a",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_41946b7cdc3554f162e1daf5885e4aaf",
+      "target": "openalextopicsstr_2cc804523f06d0e3257bd35a8fd56fb3",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_41946b7cdc3554f162e1daf5885e4aaf",
+      "target": "openalextopicsstr_432b909e9679c898c242dd931cc894cb",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_41946b7cdc3554f162e1daf5885e4aaf",
+      "target": "openalextopicsstr_e7cd347ee8ce96edca4daf8713900ad5",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_41946b7cdc3554f162e1daf5885e4aaf",
+      "target": "openalextopicsstr_223e2af631b1b7ce9801cafaca4664ce",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_41946b7cdc3554f162e1daf5885e4aaf",
+      "target": "openalextopicsstr_e3ddf0d46fdc9b383ef61fa1ef3ae254",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_943cb6f7aadfc39670c2cd19056b6789",
+      "target": "openalextopicsstr_4a6813ae2e33768ba9fa271763f059af",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_943cb6f7aadfc39670c2cd19056b6789",
+      "target": "openalextopicsstr_d4f0a9a0b7d6fd22dbbd7d4519765bb9",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_943cb6f7aadfc39670c2cd19056b6789",
+      "target": "openalextopicsstr_96a4ff3221dc0f7b3305d467248eb268",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_d3f078a90f1fc7fdf0ad3e6c43ad719c",
+      "target": "openalextopicsstr_50e0eca756c35cff6595fb5924bf539b",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_d3f078a90f1fc7fdf0ad3e6c43ad719c",
+      "target": "openalextopicsstr_a80343ca374ff9ca4cd4c35f66c5130c",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_effd23bcc49fc57f9b26df9027bf7b5f",
+      "target": "openalextopicsstr_04f1325a3ec020b1c610b0b829c2d1cf",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_effd23bcc49fc57f9b26df9027bf7b5f",
+      "target": "openalextopicsstr_b070472e2144275c73a142a7ed796f3a",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_effd23bcc49fc57f9b26df9027bf7b5f",
+      "target": "openalextopicsstr_432b909e9679c898c242dd931cc894cb",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_effd23bcc49fc57f9b26df9027bf7b5f",
+      "target": "openalextopicsstr_e7cd347ee8ce96edca4daf8713900ad5",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_effd23bcc49fc57f9b26df9027bf7b5f",
+      "target": "openalextopicsstr_223e2af631b1b7ce9801cafaca4664ce",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_5e803c92f59b487f5495911b8ad7f114",
+      "target": "openalextopicsstr_cd94fac384d863addf1c724c3b694370",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_5e803c92f59b487f5495911b8ad7f114",
+      "target": "openalextopicsstr_a80343ca374ff9ca4cd4c35f66c5130c",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_5e803c92f59b487f5495911b8ad7f114",
+      "target": "openalextopicsstr_b070472e2144275c73a142a7ed796f3a",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_5e803c92f59b487f5495911b8ad7f114",
+      "target": "openalextopicsstr_223e2af631b1b7ce9801cafaca4664ce",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_4f2c2299bbe584e41eda8e248941f121",
+      "target": "openalextopicsstr_432b909e9679c898c242dd931cc894cb",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_155f4505c426ce5ed6a9edfceca6eaaa",
+      "target": "openalextopicsstr_2cc804523f06d0e3257bd35a8fd56fb3",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_1ef9cd715b76aecd106c6e3d6817519f",
+      "target": "openalextopicsstr_50e0eca756c35cff6595fb5924bf539b",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_7741048a54341833ece897c811b80209",
+      "target": "openalextopicsstr_47481c10b29f7bd2a62394fb9d808725",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_7741048a54341833ece897c811b80209",
+      "target": "openalextopicsstr_1bc2faaf550518e899cdd1d22958d7a8",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_35096facd33ec1d5145e09c8e5daa163",
+      "target": "openalextopicsstr_96a4ff3221dc0f7b3305d467248eb268",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_35096facd33ec1d5145e09c8e5daa163",
+      "target": "openalextopicsstr_cd94fac384d863addf1c724c3b694370",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_35096facd33ec1d5145e09c8e5daa163",
+      "target": "openalextopicsstr_520d9d65898756651f9a71288912e9e5",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_297915b041df6659986bff61a91d1005",
+      "target": "openalextopicsstr_cd94fac384d863addf1c724c3b694370",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_8ff39dae304b529e276e854db232362b",
+      "target": "openalextopicsstr_50e0eca756c35cff6595fb5924bf539b",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_8ff39dae304b529e276e854db232362b",
+      "target": "openalextopicsstr_a80343ca374ff9ca4cd4c35f66c5130c",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_c6d689037978b893f03da2872aef28fe",
+      "target": "openalextopicsstr_96a4ff3221dc0f7b3305d467248eb268",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_c6d689037978b893f03da2872aef28fe",
+      "target": "openalextopicsstr_520d9d65898756651f9a71288912e9e5",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_c6d689037978b893f03da2872aef28fe",
+      "target": "openalextopicsstr_e7cd347ee8ce96edca4daf8713900ad5",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_d73bd6d7ec46983940f7ad14f1ffffaf",
+      "target": "openalextopicsstr_432b909e9679c898c242dd931cc894cb",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_3c6785924ed13da9d1b3b93e52e13e1f",
+      "target": "openalextopicsstr_432b909e9679c898c242dd931cc894cb",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_feb9a58c79fb88270181cdf5e68951dd",
+      "target": "openalextopicsstr_50e0eca756c35cff6595fb5924bf539b",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_9c4755c8c37ef8179fc8eb91ab590112",
+      "target": "openalextopicsstr_cd94fac384d863addf1c724c3b694370",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_743f6d83c1dd7bfd684c06a353d1b615",
+      "target": "openalextopicsstr_49819da924473012cd6c993e7471eeeb",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_743f6d83c1dd7bfd684c06a353d1b615",
+      "target": "openalextopicsstr_c0b1785182ab9000f6baeac257d6351b",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_743f6d83c1dd7bfd684c06a353d1b615",
+      "target": "openalextopicsstr_2da99863a9b3faa8f71ff73f0cc52ea3",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_743f6d83c1dd7bfd684c06a353d1b615",
+      "target": "openalextopicsstr_f00928d490087ac43601e9616879d29b",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_743f6d83c1dd7bfd684c06a353d1b615",
+      "target": "openalextopicsstr_8919d085f14017d76545a81517378cc1",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_743f6d83c1dd7bfd684c06a353d1b615",
+      "target": "openalextopicsstr_b070472e2144275c73a142a7ed796f3a",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_743f6d83c1dd7bfd684c06a353d1b615",
+      "target": "openalextopicsstr_432b909e9679c898c242dd931cc894cb",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_1d7aebe85386a86fee0c0b6bb410a7db",
+      "target": "openalextopicsstr_1bc2faaf550518e899cdd1d22958d7a8",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_1d7aebe85386a86fee0c0b6bb410a7db",
+      "target": "openalextopicsstr_cd94fac384d863addf1c724c3b694370",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_7e67ef79074b73c2bc777b46711f40de",
+      "target": "openalextopicsstr_8832681f0d6f4c6bb1752b7b7fe5e970",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_7e67ef79074b73c2bc777b46711f40de",
+      "target": "openalextopicsstr_568afbb0e0619a68ce6cb1face7dee64",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_7e67ef79074b73c2bc777b46711f40de",
+      "target": "openalextopicsstr_b070472e2144275c73a142a7ed796f3a",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_7e67ef79074b73c2bc777b46711f40de",
+      "target": "openalextopicsstr_2cc804523f06d0e3257bd35a8fd56fb3",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_c70317dfe9e7bd198d407b5f5e5d5754",
+      "target": "openalextopicsstr_8919d085f14017d76545a81517378cc1",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_c70317dfe9e7bd198d407b5f5e5d5754",
+      "target": "openalextopicsstr_cd94fac384d863addf1c724c3b694370",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_39f47bcf3318ad0928dd147681fb2783",
+      "target": "openalextopicsstr_4a6813ae2e33768ba9fa271763f059af",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_1108362e649bf1d257987b509fd41785",
+      "target": "openalextopicsstr_04f1325a3ec020b1c610b0b829c2d1cf",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_1108362e649bf1d257987b509fd41785",
+      "target": "openalextopicsstr_432b909e9679c898c242dd931cc894cb",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_1108362e649bf1d257987b509fd41785",
+      "target": "openalextopicsstr_223e2af631b1b7ce9801cafaca4664ce",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_721f4a46e4f379f19c2c874696c90372",
+      "target": "openalextopicsstr_7a284a97e6ee421d971ac581d46dc32f",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_721f4a46e4f379f19c2c874696c90372",
+      "target": "openalextopicsstr_d4f0a9a0b7d6fd22dbbd7d4519765bb9",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_721f4a46e4f379f19c2c874696c90372",
+      "target": "openalextopicsstr_0e12b1470d30e2a4afa4adc5f2f8cf2d",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_6d2e55a99eab4b87cb1ee6be21e259e3",
+      "target": "openalextopicsstr_d4f0a9a0b7d6fd22dbbd7d4519765bb9",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_6d2e55a99eab4b87cb1ee6be21e259e3",
+      "target": "openalextopicsstr_04f1325a3ec020b1c610b0b829c2d1cf",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_6d2e55a99eab4b87cb1ee6be21e259e3",
+      "target": "openalextopicsstr_b070472e2144275c73a142a7ed796f3a",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_6d2e55a99eab4b87cb1ee6be21e259e3",
+      "target": "openalextopicsstr_432b909e9679c898c242dd931cc894cb",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_b3f71a53a93412111ec5bb419f6f01ae",
+      "target": "openalextopicsstr_f666dc8d010540ce8ab77a49be0985ae",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_b3f71a53a93412111ec5bb419f6f01ae",
+      "target": "openalextopicsstr_8919d085f14017d76545a81517378cc1",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_b3f71a53a93412111ec5bb419f6f01ae",
+      "target": "openalextopicsstr_b070472e2144275c73a142a7ed796f3a",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_b3f71a53a93412111ec5bb419f6f01ae",
+      "target": "openalextopicsstr_2cc804523f06d0e3257bd35a8fd56fb3",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_b3f71a53a93412111ec5bb419f6f01ae",
+      "target": "openalextopicsstr_432b909e9679c898c242dd931cc894cb",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_b3f71a53a93412111ec5bb419f6f01ae",
+      "target": "openalextopicsstr_e3ddf0d46fdc9b383ef61fa1ef3ae254",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_45ee45ddc2983dfdd998c3ab11741c57",
+      "target": "openalextopicsstr_cd94fac384d863addf1c724c3b694370",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_3eb81a848f25a7a1847d4a87f8b6dd4c",
+      "target": "openalextopicsstr_50e0eca756c35cff6595fb5924bf539b",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_2e128650a4ebc881255bf93b6bb7d046",
+      "target": "openalextopicsstr_d0882462544befec6cea405c5011ac3d",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_2e128650a4ebc881255bf93b6bb7d046",
+      "target": "openalextopicsstr_d4f0a9a0b7d6fd22dbbd7d4519765bb9",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_052753fb7e5484b8c302f4e1d9b97afd",
+      "target": "openalextopicsstr_ab58029540e2f863a2d72cc1cd1623f7",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_052753fb7e5484b8c302f4e1d9b97afd",
+      "target": "openalextopicsstr_b1950f2ad3283d3052d91244f7228479",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_052753fb7e5484b8c302f4e1d9b97afd",
+      "target": "openalextopicsstr_d0882462544befec6cea405c5011ac3d",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_052753fb7e5484b8c302f4e1d9b97afd",
+      "target": "openalextopicsstr_b070472e2144275c73a142a7ed796f3a",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_052753fb7e5484b8c302f4e1d9b97afd",
+      "target": "openalextopicsstr_2cc804523f06d0e3257bd35a8fd56fb3",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_052753fb7e5484b8c302f4e1d9b97afd",
+      "target": "openalextopicsstr_432b909e9679c898c242dd931cc894cb",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_14753691b6ec2b252e639d355cd291fe",
+      "target": "openalextopicsstr_cd94fac384d863addf1c724c3b694370",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_ad0e5c441aa3ab5148431766da57ff6b",
+      "target": "openalextopicsstr_96a4ff3221dc0f7b3305d467248eb268",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_a04a480fc89a13e205fa22ad1a9818d4",
+      "target": "openalextopicsstr_b1950f2ad3283d3052d91244f7228479",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_f28dd0a862cd8e67e608cc431d49e502",
+      "target": "openalextopicsstr_1bc2faaf550518e899cdd1d22958d7a8",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_534aa90a48b06f89601dca50115d765f",
+      "target": "openalextopicsstr_50e0eca756c35cff6595fb5924bf539b",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_08646f44bf82404c5087e967c4f338ff",
+      "target": "openalextopicsstr_b1950f2ad3283d3052d91244f7228479",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_08646f44bf82404c5087e967c4f338ff",
+      "target": "openalextopicsstr_be2fa34d3afc3b8dd4174f014a79c947",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_08646f44bf82404c5087e967c4f338ff",
+      "target": "openalextopicsstr_e7cd347ee8ce96edca4daf8713900ad5",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_71355a243ceeed3927fb34f230f31974",
+      "target": "openalextopicsstr_ab58029540e2f863a2d72cc1cd1623f7",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_71355a243ceeed3927fb34f230f31974",
+      "target": "openalextopicsstr_be2fa34d3afc3b8dd4174f014a79c947",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_71355a243ceeed3927fb34f230f31974",
+      "target": "openalextopicsstr_8919d085f14017d76545a81517378cc1",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_71355a243ceeed3927fb34f230f31974",
+      "target": "openalextopicsstr_04f1325a3ec020b1c610b0b829c2d1cf",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_71355a243ceeed3927fb34f230f31974",
+      "target": "openalextopicsstr_2cc804523f06d0e3257bd35a8fd56fb3",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_6c78b6e84f5b82e784f72720ddb5f3f9",
+      "target": "openalextopicsstr_ab58029540e2f863a2d72cc1cd1623f7",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_6c78b6e84f5b82e784f72720ddb5f3f9",
+      "target": "openalextopicsstr_b070472e2144275c73a142a7ed796f3a",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_6c78b6e84f5b82e784f72720ddb5f3f9",
+      "target": "openalextopicsstr_2cc804523f06d0e3257bd35a8fd56fb3",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_9f2cad955d00f4b74e13e126be42533f",
+      "target": "openalextopicsstr_1bc2faaf550518e899cdd1d22958d7a8",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_a30f32b4d0ee9ab8816134789bfb3d80",
+      "target": "openalextopicsstr_8919d085f14017d76545a81517378cc1",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_e1281595cbeab1601a5ce324603be764",
+      "target": "openalextopicsstr_568afbb0e0619a68ce6cb1face7dee64",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_00285eb7682d8f4b7aabd4be03994e41",
+      "target": "openalextopicsstr_b1950f2ad3283d3052d91244f7228479",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_00285eb7682d8f4b7aabd4be03994e41",
+      "target": "openalextopicsstr_1bc2faaf550518e899cdd1d22958d7a8",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_00285eb7682d8f4b7aabd4be03994e41",
+      "target": "openalextopicsstr_d0882462544befec6cea405c5011ac3d",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_00285eb7682d8f4b7aabd4be03994e41",
+      "target": "openalextopicsstr_4a6813ae2e33768ba9fa271763f059af",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_00285eb7682d8f4b7aabd4be03994e41",
+      "target": "openalextopicsstr_d4f0a9a0b7d6fd22dbbd7d4519765bb9",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_00285eb7682d8f4b7aabd4be03994e41",
+      "target": "openalextopicsstr_be2fa34d3afc3b8dd4174f014a79c947",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_00285eb7682d8f4b7aabd4be03994e41",
+      "target": "openalextopicsstr_96a4ff3221dc0f7b3305d467248eb268",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_00285eb7682d8f4b7aabd4be03994e41",
+      "target": "openalextopicsstr_04f1325a3ec020b1c610b0b829c2d1cf",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_00285eb7682d8f4b7aabd4be03994e41",
+      "target": "openalextopicsstr_a80343ca374ff9ca4cd4c35f66c5130c",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_00285eb7682d8f4b7aabd4be03994e41",
+      "target": "openalextopicsstr_b070472e2144275c73a142a7ed796f3a",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_00285eb7682d8f4b7aabd4be03994e41",
+      "target": "openalextopicsstr_520d9d65898756651f9a71288912e9e5",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_00285eb7682d8f4b7aabd4be03994e41",
+      "target": "openalextopicsstr_e7cd347ee8ce96edca4daf8713900ad5",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_5a8ddee34833ef6369519cb1e5c38bc2",
+      "target": "openalextopicsstr_ab58029540e2f863a2d72cc1cd1623f7",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_5a8ddee34833ef6369519cb1e5c38bc2",
+      "target": "openalextopicsstr_be2fa34d3afc3b8dd4174f014a79c947",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_16696327a6f686bf93be669510770f38",
+      "target": "openalextopicsstr_1bc2faaf550518e899cdd1d22958d7a8",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_16696327a6f686bf93be669510770f38",
+      "target": "openalextopicsstr_0e12b1470d30e2a4afa4adc5f2f8cf2d",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_16696327a6f686bf93be669510770f38",
+      "target": "openalextopicsstr_e7cd347ee8ce96edca4daf8713900ad5",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_94cc74a74f839bd5145f5858bee19260",
+      "target": "openalextopicsstr_be2fa34d3afc3b8dd4174f014a79c947",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_94cc74a74f839bd5145f5858bee19260",
+      "target": "openalextopicsstr_2cc804523f06d0e3257bd35a8fd56fb3",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_94cc74a74f839bd5145f5858bee19260",
+      "target": "openalextopicsstr_432b909e9679c898c242dd931cc894cb",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_632843a3ec0057c3a08cbc6473308772",
+      "target": "openalextopicsstr_f76ee532d1f71ba8a8fe0e8edefda295",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_632843a3ec0057c3a08cbc6473308772",
+      "target": "openalextopicsstr_b1950f2ad3283d3052d91244f7228479",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_632843a3ec0057c3a08cbc6473308772",
+      "target": "openalextopicsstr_b070472e2144275c73a142a7ed796f3a",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_632843a3ec0057c3a08cbc6473308772",
+      "target": "openalextopicsstr_0e12b1470d30e2a4afa4adc5f2f8cf2d",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_3e86f3ff8dcef2ec7eb03308b18fa573",
+      "target": "openalextopicsstr_50e0eca756c35cff6595fb5924bf539b",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_3e86f3ff8dcef2ec7eb03308b18fa573",
+      "target": "openalextopicsstr_ab58029540e2f863a2d72cc1cd1623f7",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_3e86f3ff8dcef2ec7eb03308b18fa573",
+      "target": "openalextopicsstr_b1950f2ad3283d3052d91244f7228479",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_3e86f3ff8dcef2ec7eb03308b18fa573",
+      "target": "openalextopicsstr_1bc2faaf550518e899cdd1d22958d7a8",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_3e86f3ff8dcef2ec7eb03308b18fa573",
+      "target": "openalextopicsstr_4a6813ae2e33768ba9fa271763f059af",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_3e86f3ff8dcef2ec7eb03308b18fa573",
+      "target": "openalextopicsstr_d4f0a9a0b7d6fd22dbbd7d4519765bb9",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_3e86f3ff8dcef2ec7eb03308b18fa573",
+      "target": "openalextopicsstr_96a4ff3221dc0f7b3305d467248eb268",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_3e86f3ff8dcef2ec7eb03308b18fa573",
+      "target": "openalextopicsstr_cd94fac384d863addf1c724c3b694370",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_3e86f3ff8dcef2ec7eb03308b18fa573",
+      "target": "openalextopicsstr_2cc804523f06d0e3257bd35a8fd56fb3",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_3e86f3ff8dcef2ec7eb03308b18fa573",
+      "target": "openalextopicsstr_432b909e9679c898c242dd931cc894cb",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_866b2736f104fccbaa3daf756dc4b95e",
+      "target": "openalextopicsstr_1bc2faaf550518e899cdd1d22958d7a8",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_5245d86956a781bd337268e105a93e86",
+      "target": "openalextopicsstr_1bc2faaf550518e899cdd1d22958d7a8",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_5245d86956a781bd337268e105a93e86",
+      "target": "openalextopicsstr_d4f0a9a0b7d6fd22dbbd7d4519765bb9",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_5245d86956a781bd337268e105a93e86",
+      "target": "openalextopicsstr_e3ddf0d46fdc9b383ef61fa1ef3ae254",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_581ac3ab1867697fc06c34fd32c54d62",
+      "target": "openalextopicsstr_96a4ff3221dc0f7b3305d467248eb268",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_581ac3ab1867697fc06c34fd32c54d62",
+      "target": "openalextopicsstr_cd94fac384d863addf1c724c3b694370",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_581ac3ab1867697fc06c34fd32c54d62",
+      "target": "openalextopicsstr_e3ddf0d46fdc9b383ef61fa1ef3ae254",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_bcbe680d917dff05d9e4002b54ac4bb3",
+      "target": "openalextopicsstr_e7cd347ee8ce96edca4daf8713900ad5",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_778030e419211f1c82e4f340c0343ecc",
+      "target": "openalextopicsstr_1bc2faaf550518e899cdd1d22958d7a8",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_778030e419211f1c82e4f340c0343ecc",
+      "target": "openalextopicsstr_d4f0a9a0b7d6fd22dbbd7d4519765bb9",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_778030e419211f1c82e4f340c0343ecc",
+      "target": "openalextopicsstr_e3ddf0d46fdc9b383ef61fa1ef3ae254",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_ddb342b1eb40d197956e63da4d8e6baa",
+      "target": "openalextopicsstr_e3ddf0d46fdc9b383ef61fa1ef3ae254",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_30f81a3ae0e8b7f1a8aecae9f6769180",
+      "target": "openalextopicsstr_ab58029540e2f863a2d72cc1cd1623f7",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_30f81a3ae0e8b7f1a8aecae9f6769180",
+      "target": "openalextopicsstr_2cc804523f06d0e3257bd35a8fd56fb3",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_30f81a3ae0e8b7f1a8aecae9f6769180",
+      "target": "openalextopicsstr_432b909e9679c898c242dd931cc894cb",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_30f81a3ae0e8b7f1a8aecae9f6769180",
+      "target": "openalextopicsstr_e7cd347ee8ce96edca4daf8713900ad5",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_30f81a3ae0e8b7f1a8aecae9f6769180",
+      "target": "openalextopicsstr_e3ddf0d46fdc9b383ef61fa1ef3ae254",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_01a828b793aea88a4876035b3e7d6673",
+      "target": "openalextopicsstr_223e2af631b1b7ce9801cafaca4664ce",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_f8ce13fc734ca265ffb63f1604d44d14",
+      "target": "openalextopicsstr_2da99863a9b3faa8f71ff73f0cc52ea3",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_f8ce13fc734ca265ffb63f1604d44d14",
+      "target": "openalextopicsstr_e60f2c088bd8c55403a4923c01c1c5bb",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_f8ce13fc734ca265ffb63f1604d44d14",
+      "target": "openalextopicsstr_8832681f0d6f4c6bb1752b7b7fe5e970",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_f8ce13fc734ca265ffb63f1604d44d14",
+      "target": "openalextopicsstr_ab58029540e2f863a2d72cc1cd1623f7",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_f8ce13fc734ca265ffb63f1604d44d14",
+      "target": "openalextopicsstr_1bc2faaf550518e899cdd1d22958d7a8",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_f8ce13fc734ca265ffb63f1604d44d14",
+      "target": "openalextopicsstr_d0882462544befec6cea405c5011ac3d",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_f8ce13fc734ca265ffb63f1604d44d14",
+      "target": "openalextopicsstr_4a6813ae2e33768ba9fa271763f059af",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_f8ce13fc734ca265ffb63f1604d44d14",
+      "target": "openalextopicsstr_cd94fac384d863addf1c724c3b694370",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_f8ce13fc734ca265ffb63f1604d44d14",
+      "target": "openalextopicsstr_b070472e2144275c73a142a7ed796f3a",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_f8ce13fc734ca265ffb63f1604d44d14",
+      "target": "openalextopicsstr_2cc804523f06d0e3257bd35a8fd56fb3",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_f8ce13fc734ca265ffb63f1604d44d14",
+      "target": "openalextopicsstr_432b909e9679c898c242dd931cc894cb",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_f8ce13fc734ca265ffb63f1604d44d14",
+      "target": "openalextopicsstr_0e12b1470d30e2a4afa4adc5f2f8cf2d",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_f8ce13fc734ca265ffb63f1604d44d14",
+      "target": "openalextopicsstr_e7cd347ee8ce96edca4daf8713900ad5",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_f8ce13fc734ca265ffb63f1604d44d14",
+      "target": "openalextopicsstr_223e2af631b1b7ce9801cafaca4664ce",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_f8ce13fc734ca265ffb63f1604d44d14",
+      "target": "openalextopicsstr_e3ddf0d46fdc9b383ef61fa1ef3ae254",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_b70ec4f0f5ad6ad6ba6b519a2c53beba",
+      "target": "openalextopicsstr_d0882462544befec6cea405c5011ac3d",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_b70ec4f0f5ad6ad6ba6b519a2c53beba",
+      "target": "openalextopicsstr_cd94fac384d863addf1c724c3b694370",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_b70ec4f0f5ad6ad6ba6b519a2c53beba",
+      "target": "openalextopicsstr_2cc804523f06d0e3257bd35a8fd56fb3",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_b70ec4f0f5ad6ad6ba6b519a2c53beba",
+      "target": "openalextopicsstr_e3ddf0d46fdc9b383ef61fa1ef3ae254",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_24d2fefa68cd04d8e77ec10a77f848f3",
+      "target": "openalextopicsstr_04f1325a3ec020b1c610b0b829c2d1cf",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_758acaa1834e4e7d0dd7fd0f9555f262",
+      "target": "openalextopicsstr_ab58029540e2f863a2d72cc1cd1623f7",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_758acaa1834e4e7d0dd7fd0f9555f262",
+      "target": "openalextopicsstr_2cc804523f06d0e3257bd35a8fd56fb3",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_7ac803884a3d3c250ded98a10b15152d",
+      "target": "openalextopicsstr_ab58029540e2f863a2d72cc1cd1623f7",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_7ac803884a3d3c250ded98a10b15152d",
+      "target": "openalextopicsstr_04f1325a3ec020b1c610b0b829c2d1cf",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_7ac803884a3d3c250ded98a10b15152d",
+      "target": "openalextopicsstr_432b909e9679c898c242dd931cc894cb",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_4b37c6572f376a32314c502d11cefe77",
+      "target": "openalextopicsstr_1bc2faaf550518e899cdd1d22958d7a8",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_5819cd2ba51fab701904cef38afd34dd",
+      "target": "openalextopicsstr_ab58029540e2f863a2d72cc1cd1623f7",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    },
+    {
+      "source": "name_5819cd2ba51fab701904cef38afd34dd",
+      "target": "openalextopicsstr_e3ddf0d46fdc9b383ef61fa1ef3ae254",
+      "Matchings Count": 1,
+      "Type": "",
+      "weight": 1.0
+    }
+  ]
+}

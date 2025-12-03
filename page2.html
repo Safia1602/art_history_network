@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Réseau Chercheurs & Publications – OpenAlex</title>
+
+    <style>
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        font-family: Arial, sans-serif;
+        background: #f4f5f7;
+      }
+
+      #graph {
+        width: 100vw;
+        height: 100vh;
+        display: block;
+      }
+
+      /* Tooltip */
+      .tooltip {
+        position: absolute;
+        background: white;
+        border: 1px solid #aaa;
+        padding: 6px 10px;
+        border-radius: 5px;
+        pointer-events: none;
+        font-size: 13px;
+        display: none;
+        box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.2);
+      }
+
+      /* Legend compact */
+      #legend-compact {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        background: white;
+        padding: 12px 15px;
+        border-radius: 10px;
+        box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
+        font-size: 13px;
+        max-height: 50vh;
+        overflow-y: auto;
+      }
+
+      .legend-item {
+        display: flex;
+        align-items: center;
+        margin-bottom: 6px;
+      }
+
+      .legend-item .dot {
+        width: 14px;
+        height: 14px;
+        border-radius: 50%;
+        display: inline-block;
+        margin-right: 6px;
+      }
+
+      /* Mode Focus */
+      .node.fade,
+      .label.fade,
+      line.fade {
+        opacity: 0.1;
+      }
+
+      .node.highlight,
+      .label.highlight,
+      line.highlight {
+        opacity: 1;
+      }
+      /* Navigation arrows */
+      .nav-arrow {
+        position: fixed;
+        bottom: 20px;
+        background: rgba(0, 0, 0, 0.75);
+        color: white;
+        padding: 10px 16px;
+        border-radius: 50%;
+        font-size: 22px;
+        cursor: pointer;
+        user-select: none;
+        text-decoration: none;
+        z-index: 50;
+      }
+
+      .nav-arrow:hover {
+        background: black;
+      }
+
+      /* Left arrow */
+      #arrow-left {
+        left: 20px;
+      }
+
+      /* Right arrow */
+      #arrow-right {
+        right: 20px;
+      }
+    </style>
+
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+  </head>
+
+  <body>
+    <svg id="graph"></svg>
+    <div id="legend-compact"><strong>Universités</strong><br /><br /></div>
+    <div class="tooltip" id="tooltip"></div>
+
+    <script>
+      const svg = d3.select("#graph");
+      const width = window.innerWidth;
+      const height = window.innerHeight;
+
+      const container = svg.append("g");
+
+      const zoom = d3
+        .zoom()
+        .scaleExtent([0.1, 6])
+        .on("zoom", (e) => container.attr("transform", e.transform));
+      svg.call(zoom);
+
+      const tooltip = d3.select("#tooltip");
+
+      // Load JSON
+      d3.json("graph_openalex.json").then((raw) => {
+        const nodes = raw.nodes;
+        const links = raw.links;
+
+        // Extract list of universities
+        const universities = [
+          ...new Set(
+            nodes
+              .filter(
+                (d) =>
+                  d["university (type 1)"] && d["university (type 1)"] !== "n/a"
+              )
+              .map((d) => d["university (type 1)"])
+          ),
+        ];
+
+        // Colors
+        const universityColor = d3
+          .scaleOrdinal()
+          .domain(universities)
+          .range(d3.schemeTableau10);
+
+        const publicationColor = "#b9b9c9";
+
+        const size = d3
+          .scaleSqrt()
+          .range([5, 18])
+          .domain(d3.extent(nodes, (d) => d["Occurrences Count"]));
+
+        // Legend generation
+        const legend = d3.select("#legend-compact");
+        universities.forEach((u) => {
+          const item = legend.append("div").attr("class", "legend-item");
+          item
+            .append("span")
+            .attr("class", "dot")
+            .style("background", universityColor(u));
+          item.append("span").text(" " + u);
+
+          item
+            .append("input")
+            .attr("type", "checkbox")
+            .attr("checked", true)
+            .style("margin-left", "8px")
+            .on("change", updateVisibility);
+        });
+
+        // Simulation
+        const simulation = d3
+          .forceSimulation(nodes)
+          .force(
+            "link",
+            d3
+              .forceLink(links)
+              .id((d) => d.id)
+              .distance(100)
+          )
+          .force("charge", d3.forceManyBody().strength(-200))
+          .force("center", d3.forceCenter(width / 2, height / 2))
+          .force(
+            "collision",
+            d3.forceCollide().radius((d) => size(d["Occurrences Count"]) + 4)
+          );
+
+        const link = container
+          .append("g")
+          .attr("stroke", "#ccc")
+          .attr("stroke-width", 1)
+          .selectAll("line")
+          .data(links)
+          .enter()
+          .append("line");
+
+        const nodeGroup = container
+          .append("g")
+          .selectAll("g")
+          .data(nodes)
+          .enter()
+          .append("g")
+          .attr("class", "node")
+          .call(drag(simulation));
+
+        // Draw nodes
+        nodeGroup
+          .append("circle")
+          .attr("r", (d) => size(d["Occurrences Count"]))
+          .attr("fill", (d) => {
+            if (d.Type.toLowerCase().includes("llm")) return publicationColor;
+            return universityColor(d["university (type 1)"]);
+          })
+          .attr("stroke", "#333")
+          .attr("stroke-width", 0.8);
+
+        const labels = container
+          .append("g")
+          .selectAll("text")
+          .data(nodes)
+          .enter()
+          .append("text")
+          .text((d) => d.label)
+          .attr("font-size", 11)
+          .attr("dx", 8)
+          .attr("dy", 3)
+          .attr("fill", "#222");
+
+        // Tooltip
+        nodeGroup
+          .on("mouseover", (event, d) => {
+            tooltip.style("display", "block").html(`
+        <strong>${d.label}</strong><br>
+        Type : ${d.Type}<br>
+        Université : ${d["university (type 1)"]}
+      `);
+          })
+          .on("mousemove", (event) =>
+            tooltip
+              .style("left", event.pageX + 10 + "px")
+              .style("top", event.pageY + 10 + "px")
+          )
+          .on("mouseout", () => tooltip.style("display", "none"));
+
+        // Focus mode
+        nodeGroup.on("click", (event, d) => activateFocus(d));
+        svg.on("dblclick", resetFocus);
+
+        function activateFocus(node) {
+          const connected = new Set();
+          links.forEach((l) => {
+            if (l.source.id === node.id) connected.add(l.target.id);
+            if (l.target.id === node.id) connected.add(l.source.id);
+          });
+          connected.add(node.id);
+
+          nodeGroup
+            .classed("fade", (d) => !connected.has(d.id))
+            .classed("highlight", (d) => connected.has(d.id));
+
+          labels
+            .classed("fade", (d) => !connected.has(d.id))
+            .classed("highlight", (d) => connected.has(d.id));
+
+          link
+            .classed(
+              "fade",
+              (l) => !(connected.has(l.source.id) && connected.has(l.target.id))
+            )
+            .classed(
+              "highlight",
+              (l) => connected.has(l.source.id) && connected.has(l.target.id)
+            );
+        }
+
+        function resetFocus() {
+          nodeGroup.classed("fade", false).classed("highlight", false);
+          labels.classed("fade", false).classed("highlight", false);
+          link.classed("fade", false).classed("highlight", false);
+        }
+
+        // Filtering
+        function updateVisibility() {
+          const visible = {};
+          legend.selectAll("div").each(function () {
+            const box = d3.select(this).select("input").node();
+            const uni = d3
+              .select(this)
+              .select("span:nth-child(2)")
+              .text()
+              .trim();
+            visible[uni] = box.checked;
+          });
+
+          nodeGroup.style("display", (d) => {
+            if (d.Type.includes("llm")) return "inline"; // publications always visible
+            return visible[d["university (type 1)"]] ? "inline" : "none";
+          });
+
+          labels.style("display", (d, i) =>
+            nodeGroup.filter((n, j) => j === i).style("display") === "none"
+              ? "none"
+              : "inline"
+          );
+
+          link.style("display", (l) => {
+            const s =
+              nodeGroup.filter((n) => n.id === l.source.id).style("display") !==
+              "none";
+            const t =
+              nodeGroup.filter((n) => n.id === l.target.id).style("display") !==
+              "none";
+            return s && t ? "inline" : "none";
+          });
+        }
+
+        // Tick update
+        simulation.on("tick", () => {
+          link
+            .attr("x1", (d) => d.source.x)
+            .attr("y1", (d) => d.source.y)
+            .attr("x2", (d) => d.target.x)
+            .attr("y2", (d) => d.target.y);
+
+          nodeGroup.attr("transform", (d) => `translate(${d.x},${d.y})`);
+
+          labels.attr("x", (d) => d.x).attr("y", (d) => d.y);
+        });
+      });
+
+      // Drag function
+      function drag(sim) {
+        return d3
+          .drag()
+          .on("start", (e) => {
+            if (!e.active) sim.alphaTarget(0.3).restart();
+            e.subject.fx = e.subject.x;
+            e.subject.fy = e.subject.y;
+          })
+          .on("drag", (e) => {
+            e.subject.fx = e.x;
+            e.subject.fy = e.y;
+          })
+          .on("end", (e) => {
+            if (!e.active) sim.alphaTarget(0);
+            e.subject.fx = null;
+            e.subject.fy = null;
+          });
+      }
+    </script>
+    <body>
+      <!-- TON CODE -->
+
+      <!-- Flèche retour ← vers page1 -->
+      <a href="page1.html" class="nav-arrow" id="arrow-left">←</a>
+    </body>
+  </body>
+</html>

@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Réseau – Chercheurs et Domaines liés à la France</title>
+
+    <style>
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        overflow: hidden;
+        font-family: Arial, sans-serif;
+        background: #f2f4f7;
+      }
+
+      #graph {
+        width: 100vw;
+        height: 100vh;
+        display: block;
+        background: white;
+        cursor: grab;
+      }
+
+      /* Tooltip */
+      .tooltip {
+        position: absolute;
+        background: white;
+        border: 1px solid #aaa;
+        padding: 8px 12px;
+        border-radius: 4px;
+        pointer-events: none;
+        font-size: 14px;
+        box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15);
+        display: none;
+      }
+
+      /* ----- Légende compacte France ----- */
+      #legend-compact {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        background: white;
+        padding: 12px 15px;
+        border-radius: 10px;
+        box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
+        font-size: 13px;
+        z-index: 10;
+      }
+
+      .legend-item {
+        display: flex;
+        align-items: center;
+        margin-bottom: 4px;
+      }
+
+      .legend-item .dot {
+        width: 14px;
+        height: 14px;
+        border-radius: 50%;
+        display: inline-block;
+        margin-right: 6px;
+      }
+
+      #info-button,
+      #uni-button {
+        margin-top: 8px;
+        text-align: center;
+        cursor: pointer;
+        font-size: 14px;
+        background: #e5e7eb;
+        padding: 4px 6px;
+        border-radius: 5px;
+      }
+
+      /* ----- Légende détaillée France ----- */
+      #legend-expanded {
+        position: absolute;
+        top: 80px;
+        right: 10px;
+        width: 260px;
+        background: white;
+        padding: 15px;
+        border-radius: 12px;
+        box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+        font-size: 13px;
+        z-index: 20;
+        display: none;
+      }
+
+      #legend-expanded h3 {
+        margin-top: 0;
+      }
+
+      #close-legend,
+      #close-uni {
+        margin-top: 10px;
+        width: 100%;
+        padding: 6px 0;
+        border: none;
+        background: #ddd;
+        border-radius: 6px;
+        cursor: pointer;
+      }
+
+      /* ----- Popup Universités ----- */
+      #uni-popup {
+        position: absolute;
+        top: 80px;
+        right: 290px;
+        width: 260px;
+        max-height: 300px;
+        overflow-y: auto;
+        background: white;
+        padding: 15px;
+        border-radius: 12px;
+        box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+        font-size: 13px;
+        z-index: 20;
+        display: none;
+      }
+
+      #uni-popup h3 {
+        margin-top: 0;
+      }
+
+      .uni-item {
+        display: flex;
+        align-items: center;
+        margin-bottom: 4px;
+        font-size: 12px;
+      }
+
+      .uni-color {
+        width: 14px;
+        height: 14px;
+        border-radius: 50%;
+        margin-right: 6px;
+      }
+      /* Navigation arrows */
+      .nav-arrow {
+        position: fixed;
+        bottom: 20px;
+        background: rgba(0, 0, 0, 0.75);
+        color: white;
+        padding: 10px 16px;
+        border-radius: 50%;
+        font-size: 22px;
+        cursor: pointer;
+        user-select: none;
+        text-decoration: none;
+        z-index: 50;
+      }
+
+      .nav-arrow:hover {
+        background: black;
+      }
+
+      /* Left arrow */
+      #arrow-left {
+        left: 20px;
+      }
+
+      /* Right arrow */
+      #arrow-right {
+        right: 20px;
+      }
+    </style>
+
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+  </head>
+
+  <body>
+    <!-- LÉGENDE COMPACTE FRANCE -->
+    <div id="legend-compact">
+      <strong>Légende</strong>
+
+      <div class="legend-item">
+        <span class="dot" style="background: #e15cac"></span> Domaines France
+        <input
+          type="checkbox"
+          id="toggleDomainFrance"
+          checked
+          style="margin-left: 8px"
+        />
+      </div>
+
+      <div class="legend-item">
+        <!-- carré auteurs France -->
+        <span
+          style="
+            width: 14px;
+            height: 14px;
+            display: inline-block;
+            background: #3b82f6;
+            margin-right: 6px;
+          "
+        ></span>
+        Auteurs France (carrés colorés par université)
+        <input
+          type="checkbox"
+          id="toggleAuthorFrance"
+          checked
+          style="margin-left: 8px"
+        />
+      </div>
+
+      <div class="legend-item">
+        <span class="dot" style="background: #7e22ce"></span> Domaines
+        non-France
+        <input
+          type="checkbox"
+          id="toggleDomainOther"
+          checked
+          style="margin-left: 8px"
+        />
+      </div>
+
+      <div class="legend-item">
+        <span
+          class="dot"
+          style="background: #000; border: 1px solid #999"
+        ></span>
+        Auteurs non-France (cercles colorés par université)
+        <input
+          type="checkbox"
+          id="toggleAuthorOther"
+          checked
+          style="margin-left: 8px"
+        />
+      </div>
+
+      <div id="info-button">❓ Explication</div>
+      <div id="uni-button">🎓 Universités</div>
+    </div>
+
+    <!-- LÉGENDE DÉTAILLÉE FRANCE -->
+    <div id="legend-expanded">
+      <h3>Comprendre les formes et les filtres</h3>
+
+      <p>Ce réseau distingue :</p>
+
+      <ul>
+        <li>
+          <strong style="color: #e15cac">Domaines France</strong> : thématiques
+          où <em>link_france = "Yes"</em>
+        </li>
+        <li>
+          <strong style="color: #3b82f6">Auteurs France</strong> : représentés
+          par des <strong>carrés</strong>, reliés à au moins un domaine France
+        </li>
+        <li>
+          <strong style="color: #7e22ce">Domaines non-France</strong> : domaines
+          sans lien direct avec la France
+        </li>
+        <li>
+          <strong>Auteurs non-France</strong> : cercles colorés en fonction de
+          leur université
+        </li>
+      </ul>
+
+      <h4>Comment utiliser les filtres ?</h4>
+      <ul>
+        <li>
+          <strong>Voir uniquement les chercheurs France :</strong> décocher «
+          Auteurs non-France »
+        </li>
+        <li>
+          <strong>Comparer domaines France / hors France :</strong> laisser les
+          deux types de domaines visibles
+        </li>
+        <li>
+          <strong>Explorer spécifiquement la France :</strong> afficher Domaines
+          France + Auteurs France
+        </li>
+      </ul>
+
+      <p style="font-size: 12px; opacity: 0.8">
+        Astuce : cliquez sur un nœud pour activer un
+        <strong>mode focus</strong> qui met en avant ses relations.
+      </p>
+
+      <button id="close-legend">Fermer</button>
+    </div>
+
+    <!-- POPUP UNIVERSITÉS -->
+    <div id="uni-popup">
+      <h3>Filtrer par université</h3>
+      <p style="font-size: 12px; opacity: 0.8">
+        Chaque couleur correspond à une université. Décochez pour masquer ses
+        auteurs.
+      </p>
+      <div id="uni-list"></div>
+      <button id="close-uni">Fermer</button>
+    </div>
+
+    <!-- GRAPH -->
+    <svg id="graph"></svg>
+    <div class="tooltip" id="tooltip"></div>
+
+    <script>
+      // === FULLSCREEN SVG ===
+      const svg = d3.select("#graph");
+      const width = window.innerWidth;
+      const height = window.innerHeight;
+
+      const container = svg.append("g");
+
+      // ZOOM & PAN
+      const zoom = d3
+        .zoom()
+        .scaleExtent([0.1, 8])
+        .on("zoom", (event) => container.attr("transform", event.transform));
+      svg.call(zoom);
+
+      const tooltip = d3.select("#tooltip");
+
+      // COULEURS
+      const colorDomainFrance = "#e15cac";
+      const colorDomainOther = "#7e22ce";
+      const colorAuthorFrance = "#3b82f6";
+      const universityColor = d3.scaleOrdinal(d3.schemeTableau10);
+
+      // Taille des nœuds
+      const size = d3.scaleSqrt().range([8, 22]);
+
+      let node, link, labels;
+      let franceDomains, authorsFrance;
+      let neighbors = {};
+      let focusedId = null;
+
+      // HELPERS
+      function buildNeighbors(links) {
+        neighbors = {};
+        links.forEach((l) => {
+          const s = typeof l.source === "object" ? l.source.id : l.source;
+          const t = typeof l.target === "object" ? l.target.id : l.target;
+          if (!neighbors[s]) neighbors[s] = new Set();
+          if (!neighbors[t]) neighbors[t] = new Set();
+          neighbors[s].add(t);
+          neighbors[t].add(s);
+        });
+      }
+
+      function getSelectedUniversities() {
+        const selected = new Set();
+        document
+          .querySelectorAll("#uni-list input[type='checkbox']")
+          .forEach((cb) => {
+            if (cb.checked) selected.add(cb.value);
+          });
+        return selected;
+      }
+
+      // LOAD JSON
+      d3.json("graph.json").then((raw) => {
+        const nodes = raw.nodes;
+        const links = raw.links;
+
+        // Domaines France = "Yes"
+        franceDomains = new Set(
+          nodes
+            .filter(
+              (d) =>
+                d.Type &&
+                d.Type.toLowerCase().includes("domain") &&
+                d["link_france (type 2)"] === "Yes"
+            )
+            .map((d) => d.id)
+        );
+
+        // Auteurs France = liés à domaines France
+        authorsFrance = new Set();
+        links.forEach((l) => {
+          if (franceDomains.has(l.target)) authorsFrance.add(l.source);
+          if (franceDomains.has(l.source)) authorsFrance.add(l.target);
+        });
+
+        size.domain(d3.extent(nodes, (d) => d["Occurrences Count"]));
+
+        // Liste des universités (pour la popup)
+        const universities = Array.from(
+          new Set(
+            nodes
+              .filter((d) => !d.Type.toLowerCase().includes("domain"))
+              .map((d) => d["university (type 1)"])
+              .filter((u) => u && u !== "n/a")
+          )
+        ).sort();
+
+        // Remplir la popup universités
+        const uniList = d3.select("#uni-list");
+        universities.forEach((u) => {
+          const item = uniList.append("div").attr("class", "uni-item");
+          item
+            .append("span")
+            .attr("class", "uni-color")
+            .style("background", universityColor(u));
+          const label = item.append("label");
+          label
+            .append("input")
+            .attr("type", "checkbox")
+            .attr("value", u)
+            .property("checked", true)
+            .on("change", applyFiltersAndFocus);
+          label.append("span").text(" " + u);
+        });
+
+        // FORCE SIMULATION
+        const simulation = d3
+          .forceSimulation(nodes)
+          .force(
+            "link",
+            d3
+              .forceLink(links)
+              .id((d) => d.id)
+              .distance(90)
+          )
+          .force("charge", d3.forceManyBody().strength(-240))
+          .force("center", d3.forceCenter(width / 2, height / 2))
+          .force(
+            "collision",
+            d3.forceCollide().radius((d) => size(d["Occurrences Count"]) + 6)
+          );
+
+        // LIENS (sous les nœuds)
+        link = container
+          .append("g")
+          .attr("stroke", "#999")
+          .attr("stroke-width", 0.7)
+          .attr("stroke-opacity", 0.45)
+          .selectAll("line")
+          .data(links)
+          .enter()
+          .append("line");
+
+        // NŒUDS (groupes <g> pour gérer forme + position + drag)
+        node = container
+          .append("g")
+          .selectAll("g")
+          .data(nodes)
+          .enter()
+          .append("g")
+          .each(function (d) {
+            const g = d3.select(this);
+            const isDomain = d.Type && d.Type.toLowerCase().includes("domain");
+            const isAuthorFrance = authorsFrance.has(d.id);
+            const r = size(d["Occurrences Count"]);
+
+            if (isDomain) {
+              // Domaines = cercles
+              g.append("circle")
+                .attr("r", r)
+                .attr(
+                  "fill",
+                  franceDomains.has(d.id) ? colorDomainFrance : colorDomainOther
+                );
+            } else if (isAuthorFrance) {
+              // Auteurs France = carrés
+              g.append("rect")
+                .attr("x", -r)
+                .attr("y", -r)
+                .attr("width", r * 2)
+                .attr("height", r * 2)
+                .attr("rx", 2)
+                .attr("fill", universityColor(d["university (type 1)"]));
+            } else {
+              // Auteurs non-France = cercles colorés par université
+              g.append("circle")
+                .attr("r", r)
+                .attr("fill", universityColor(d["university (type 1)"]));
+            }
+
+            g.attr("stroke", "#333").attr("stroke-width", 0.8);
+          })
+          .call(drag(simulation))
+          .on("click", (event, d) => {
+            event.stopPropagation();
+            focusedId = focusedId === d.id ? null : d.id;
+            applyFiltersAndFocus();
+          })
+          .on("mouseover", (event, d) => {
+            tooltip.style("display", "block").html(`
+          <strong>${d.label}</strong><br>
+          Type : ${d.Type}<br>
+          Université : ${d["university (type 1)"] || "n/a"}<br>
+          France : ${d["link_france (type 2)"]}<br>
+          Occurrences : ${d["Occurrences Count"]}
+        `);
+          })
+          .on("mousemove", (e) => {
+            tooltip
+              .style("left", e.pageX + 12 + "px")
+              .style("top", e.pageY + 12 + "px");
+          })
+          .on("mouseout", () => tooltip.style("display", "none"));
+
+        // LABELS
+        labels = container
+          .append("g")
+          .selectAll("text")
+          .data(nodes)
+          .enter()
+          .append("text")
+          .text((d) => d.label)
+          .attr("font-size", 11)
+          .attr("fill", "#222");
+
+        // Construire la structure de voisinage pour le mode focus
+        buildNeighbors(links);
+
+        // Tick
+        simulation.on("tick", () => {
+          link
+            .attr("x1", (d) => d.source.x)
+            .attr("y1", (d) => d.source.y)
+            .attr("x2", (d) => d.target.x)
+            .attr("y2", (d) => d.target.y);
+
+          node.attr("transform", (d) => `translate(${d.x},${d.y})`);
+
+          labels
+            .attr("x", (d) => d.x)
+            .attr("y", (d) => d.y - size(d["Occurrences Count"]) - 3);
+        });
+
+        // Appliquer filtres + focus au démarrage
+        applyFiltersAndFocus();
+
+        // Réagir aux filtres France / non-France
+        document
+          .querySelectorAll("#legend-compact input[type='checkbox']")
+          .forEach((cb) => cb.addEventListener("change", applyFiltersAndFocus));
+      });
+
+      // MODE FOCUS + FILTRES
+      function applyFiltersAndFocus() {
+        if (!node) return;
+
+        const showDF = document.getElementById("toggleDomainFrance").checked;
+        const showAF = document.getElementById("toggleAuthorFrance").checked;
+        const showDO = document.getElementById("toggleDomainOther").checked;
+        const showAO = document.getElementById("toggleAuthorOther").checked;
+
+        const selectedUnis = getSelectedUniversities();
+
+        node.style("display", (d) => {
+          const isDomain = d.Type && d.Type.toLowerCase().includes("domain");
+          const isDF = franceDomains && franceDomains.has(d.id);
+          const isAF = authorsFrance && authorsFrance.has(d.id);
+          const uni = d["university (type 1)"];
+
+          // Filtre France / non-France
+          if (isDomain && isDF && !showDF) return "none";
+          if (isDomain && !isDF && !showDO) return "none";
+          if (!isDomain && isAF && !showAF) return "none";
+          if (!isDomain && !isAF && !showAO) return "none";
+
+          // Filtre universités (uni seulement pour auteurs non-France)
+          if (
+            !isDomain &&
+            !isAF &&
+            uni &&
+            uni !== "n/a" &&
+            !selectedUnis.has(uni)
+          ) {
+            return "none";
+          }
+          return "inline";
+        });
+
+        // Opacité pour le mode focus
+        node.style("opacity", (d) => {
+          if (!focusedId) return 1;
+          if (!neighbors[focusedId]) return 1;
+
+          const id = d.id;
+          if (id === focusedId) return 1;
+          if (neighbors[focusedId].has(id)) return 1;
+          return 0.15;
+        });
+
+        labels.style("display", (d, i) =>
+          node.filter((n, j) => j === i).style("display") === "none"
+            ? "none"
+            : "inline"
+        );
+
+        labels.style("opacity", (d) => {
+          if (!focusedId) return 1;
+          if (!neighbors[focusedId]) return 1;
+          if (d.id === focusedId) return 1;
+          if (neighbors[focusedId].has(d.id)) return 1;
+          return 0.15;
+        });
+
+        link.style("display", (l) => {
+          if (!node) return "inline";
+          const sVisible =
+            node.filter((n) => n.id === l.source.id).style("display") !==
+            "none";
+          const tVisible =
+            node.filter((n) => n.id === l.target.id).style("display") !==
+            "none";
+          return sVisible && tVisible ? "inline" : "none";
+        });
+
+        link.style("stroke-opacity", (l) => {
+          if (!focusedId) return 0.45;
+          if (!neighbors[focusedId]) return 0.45;
+
+          const sid = l.source.id;
+          const tid = l.target.id;
+
+          if (sid === focusedId || tid === focusedId) return 0.85;
+          if (neighbors[focusedId].has(sid) || neighbors[focusedId].has(tid))
+            return 0.7;
+          return 0.1;
+        });
+      }
+
+      // DRAG
+      function drag(sim) {
+        return d3
+          .drag()
+          .on("start", (event) => {
+            if (!event.active) sim.alphaTarget(0.3).restart();
+            event.subject.fx = event.subject.x;
+            event.subject.fy = event.subject.y;
+          })
+          .on("drag", (event) => {
+            event.subject.fx = event.x;
+            event.subject.fy = event.y;
+          })
+          .on("end", (event) => {
+            if (!event.active) sim.alphaTarget(0);
+            event.subject.fx = null;
+            event.subject.fy = null;
+          });
+      }
+
+      // LÉGENDE DÉTAILLÉE FRANCE
+      document.getElementById("info-button").onclick = () =>
+        (document.getElementById("legend-expanded").style.display = "block");
+
+      document.getElementById("close-legend").onclick = () =>
+        (document.getElementById("legend-expanded").style.display = "none");
+
+      // POPUP UNIVERSITÉS
+      document.getElementById("uni-button").onclick = () =>
+        (document.getElementById("uni-popup").style.display = "block");
+
+      document.getElementById("close-uni").onclick = () =>
+        (document.getElementById("uni-popup").style.display = "none");
+
+      // Sortir du focus en cliquant sur le fond
+      svg.on("click", (event) => {
+        if (event.target === svg.node()) {
+          focusedId = null;
+          applyFiltersAndFocus();
+        }
+      });
+    </script>
+    <body>
+      <!-- TON CODE (réseau D3 ou autre) -->
+
+      <!-- Flèche → page suivante -->
+      <a href="page1.html" class="nav-arrow" id="arrow-right">➜</a>
+    </body>
+  </body>
+</html>
