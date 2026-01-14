@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<title>Réseau auteurs & macro-tags (OpenAlex)</title>
+<style>
+  html, body { margin:0; padding:0; height:100%; overflow:hidden; font-family: Arial, sans-serif; background:#f2f4f7; }
+  #graph { width:100vw; height:100vh; display:block; background:white; cursor:grab; }
+
+  .tooltip{
+    position:absolute; background:white; border:1px solid #aaa; padding:8px 12px;
+    border-radius:6px; pointer-events:none; font-size:13px; display:none;
+    box-shadow:0 2px 10px rgba(0,0,0,0.18);
+  }
+
+  #legend-compact{
+    position:absolute; top:10px; right:10px; background:white; padding:12px 15px;
+    border-radius:10px; box-shadow:0 2px 10px rgba(0,0,0,0.15); font-size:13px; z-index:10;
+    width: 260px;
+  }
+
+  .legend-item{ display:flex; align-items:center; margin-bottom:6px; }
+  .dot{ width:14px; height:14px; border-radius:50%; display:inline-block; margin-right:6px; }
+
+  #uni-button{
+    margin-top:8px; text-align:center; cursor:pointer; font-size:14px;
+    background:#e5e7eb; padding:6px 8px; border-radius:6px;
+  }
+
+  #toggle-tags-row{
+    display:flex; align-items:center; gap:8px; margin-top:10px;
+    font-size:12px; opacity:0.9;
+  }
+
+  #uni-popup{
+    position:absolute; top:80px; right:10px; width:320px; max-height:360px;
+    overflow:auto; background:white; padding:15px; border-radius:12px;
+    box-shadow:0 4px 15px rgba(0,0,0,0.25); font-size:13px; z-index:20; display:none;
+  }
+  #uni-popup h3{ margin-top:0; }
+  .uni-item{ display:flex; align-items:center; gap:8px; margin-bottom:6px; }
+  .uni-color{ width:14px; height:14px; border-radius:50%; flex:0 0 auto; }
+  #close-uni{
+    margin-top:10px; width:100%; padding:7px 0; border:none; background:#ddd;
+    border-radius:7px; cursor:pointer;
+  }
+
+  /* focus styles */
+  .faded { opacity: 0.12; }
+</style>
+<script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+
+<div id="legend-compact">
+  <strong>Réseau OpenAlex</strong>
+  <div class="legend-item" style="margin-top:8px;">
+    <span class="dot" style="background:#111; border:1px solid #999;"></span>
+    Auteurs (couleur = université)
+  </div>
+  <div class="legend-item">
+    <span class="dot" style="background:#b9b9c9; border:1px solid #999;"></span>
+    Macro-tags
+  </div>
+
+  <div id="toggle-tags-row">
+    <input type="checkbox" id="toggleTags" checked />
+    <label for="toggleTags">Afficher les macro-tags</label>
+  </div>
+
+  <div id="uni-button">🎓 Universités (filtrer)</div>
+</div>
+
+<div id="uni-popup">
+  <h3>Filtrer par université</h3>
+  <p style="font-size:12px; opacity:0.8; margin-top:-6px;">
+    Les auteurs sont colorés par université. Décoche pour masquer une université.
+  </p>
+  <div id="uni-list"></div>
+  <button id="close-uni">Fermer</button>
+</div>
+
+<svg id="graph"></svg>
+<div class="tooltip" id="tooltip"></div>
+
+<script>
+const svg = d3.select("#graph");
+const width = window.innerWidth;
+const height = window.innerHeight;
+
+const container = svg.append("g");
+
+const zoom = d3.zoom()
+  .scaleExtent([0.1, 8])
+  .on("zoom", (event) => container.attr("transform", event.transform));
+svg.call(zoom);
+
+const tooltip = d3.select("#tooltip");
+
+const publicationColor = "#b9b9c9"; // macro-tags
+const universityColor = d3.scaleOrdinal(d3.schemeTableau10);
+
+const size = d3.scaleSqrt().range([7, 20]);
+
+let nodeG, linkSel, labelSel;
+let neighbors = {};
+let focusedId = null;
+
+function buildNeighbors(links){
+  neighbors = {};
+  links.forEach(l => {
+    const s = (typeof l.source === "object") ? l.source.id : l.source;
+    const t = (typeof l.target === "object") ? l.target.id : l.target;
+    (neighbors[s] ||= new Set()).add(t);
+    (neighbors[t] ||= new Set()).add(s);
+  });
+}
+
+function selectedUniversities(){
+  const s = new Set();
+  document.querySelectorAll("#uni-list input[type='checkbox']").forEach(cb => {
+    if (cb.checked) s.add(cb.value);
+  });
+  return s;
+}
+
+function applyVisibility(){
+  const showTags = document.getElementById("toggleTags").checked;
+  const unis = selectedUniversities();
+
+  // nodes display based on filters
+  nodeG.style("display", d => {
+    if (d.Type === "macro_tag") return showTags ? "inline" : "none";
+    // author
+    const u = d.university || "n/a";
+    if (u !== "n/a" && !unis.has(u)) return "none";
+    return "inline";
+  });
+
+  // links display: only if both ends visible
+  linkSel.style("display", l => {
+    const sVis = nodeG.filter(n => n.id === l.source.id).style("display") !== "none";
+    const tVis = nodeG.filter(n => n.id === l.target.id).style("display") !== "none";
+    return (sVis && tVis) ? "inline" : "none";
+  });
+
+  // labels display: match node visibility
+  labelSel.style("display", (d,i) =>
+    nodeG.filter((n,j)=>j===i).style("display")==="none" ? "none" : "inline"
+  );
+
+  applyFocus(); // keep focus coherent after filtering
+}
+
+function applyFocus(){
+  if (!focusedId){
+    nodeG.classed("faded", false);
+    labelSel.classed("faded", false);
+    linkSel.classed("faded", false).style("stroke-opacity", 0.45);
+    return;
+  }
+  const neigh = neighbors[focusedId] || new Set();
+  neigh.add(focusedId);
+
+  nodeG.classed("faded", d => !neigh.has(d.id));
+  labelSel.classed("faded", d => !neigh.has(d.id));
+
+  linkSel
+    .classed("faded", l => !(neigh.has(l.source.id) && neigh.has(l.target.id)))
+    .style("stroke-opacity", l => {
+      if (l.source.id === focusedId || l.target.id === focusedId) return 0.9;
+      if (neigh.has(l.source.id) && neigh.has(l.target.id)) return 0.7;
+      return 0.12;
+    });
+}
+
+d3.json("graph.json").then(raw => {
+  const nodes = raw.nodes;
+  const links = raw.links;
+
+  // domain universities and colors
+  const unis = Array.from(new Set(
+    nodes.filter(d => d.Type === "author")
+         .map(d => (d.university || "n/a"))
+         .filter(u => u && u !== "n/a")
+  )).sort();
+
+  universityColor.domain(unis);
+
+  // build university popup checklist
+  const uniList = d3.select("#uni-list");
+  unis.forEach(u => {
+    const row = uniList.append("div").attr("class", "uni-item");
+    row.append("span").attr("class","uni-color").style("background", universityColor(u));
+    const lab = row.append("label").style("flex","1 1 auto");
+    lab.append("input")
+      .attr("type","checkbox")
+      .attr("value", u)
+      .property("checked", true)
+      .on("change", applyVisibility);
+    lab.append("span").text(" " + u);
+  });
+
+  size.domain(d3.extent(nodes, d => d.weight || d["Occurrences Count"] || 1));
+
+  // simulation
+  const simulation = d3.forceSimulation(nodes)
+    .force("link", d3.forceLink(links).id(d => d.id).distance(90))
+    .force("charge", d3.forceManyBody().strength(-220))
+    .force("center", d3.forceCenter(width/2, height/2))
+    .force("collision", d3.forceCollide().radius(d => size(d.weight || d["Occurrences Count"] || 1) + 6));
+
+  // links FIRST so they stay under nodes
+  linkSel = container.append("g")
+    .attr("stroke", "#999")
+    .attr("stroke-width", 0.8)
+    .attr("stroke-opacity", 0.45)
+    .selectAll("line")
+    .data(links)
+    .enter().append("line");
+
+  // nodes
+  nodeG = container.append("g")
+    .selectAll("g")
+    .data(nodes)
+    .enter().append("g")
+    .on("click", (event, d) => {
+      event.stopPropagation();
+      focusedId = (focusedId === d.id) ? null : d.id;
+      applyFocus();
+    })
+    .on("mouseover", (event, d) => {
+      const uniLine = (d.Type === "author") ? `<br>Université : ${d.university || "n/a"}` : "";
+      tooltip.style("display","block")
+        .html(`<strong>${d.label}</strong><br>Type : ${d.Type}${uniLine}`);
+    })
+    .on("mousemove", (event) => {
+      tooltip.style("left",(event.pageX+12)+"px").style("top",(event.pageY+12)+"px");
+    })
+    .on("mouseout", () => tooltip.style("display","none"))
+    .call(drag(simulation));
+
+  // draw shapes (authors circle, tags circle)
+  nodeG.append("circle")
+    .attr("r", d => size(d.weight || d["Occurrences Count"] || 1))
+    .attr("fill", d => {
+      if (d.Type === "macro_tag") return publicationColor;
+      // author
+      const u = d.university || "n/a";
+      return (u !== "n/a") ? universityColor(u) : "#444";
+    })
+    .attr("stroke", "#333")
+    .attr("stroke-width", 0.8);
+
+  // labels
+  labelSel = container.append("g")
+    .selectAll("text")
+    .data(nodes)
+    .enter().append("text")
+    .text(d => d.label)
+    .attr("font-size", 11)
+    .attr("fill", "#222");
+
+  buildNeighbors(links);
+
+  simulation.on("tick", () => {
+    linkSel
+      .attr("x1", d => d.source.x).attr("y1", d => d.source.y)
+      .attr("x2", d => d.target.x).attr("y2", d => d.target.y);
+
+    nodeG.attr("transform", d => `translate(${d.x},${d.y})`);
+
+    labelSel
+      .attr("x", d => d.x)
+      .attr("y", d => d.y - (size(d.weight || d["Occurrences Count"] || 1) + 4));
+  });
+
+  // filters
+  document.getElementById("toggleTags").addEventListener("change", applyVisibility);
+
+  // clicking on background exits focus
+  svg.on("click", (event) => {
+    if (event.target === svg.node()) {
+      focusedId = null;
+      applyFocus();
+    }
+  });
+
+  applyVisibility();
+});
+
+function drag(sim){
+  return d3.drag()
+    .on("start", (event) => {
+      if (!event.active) sim.alphaTarget(0.3).restart();
+      event.subject.fx = event.subject.x;
+      event.subject.fy = event.subject.y;
+    })
+    .on("drag", (event) => {
+      event.subject.fx = event.x;
+      event.subject.fy = event.y;
+    })
+    .on("end", (event) => {
+      if (!event.active) sim.alphaTarget(0);
+      event.subject.fx = null;
+      event.subject.fy = null;
+    });
+}
+
+// popup controls
+document.getElementById("uni-button").onclick = () =>
+  document.getElementById("uni-popup").style.display = "block";
+document.getElementById("close-uni").onclick = () =>
+  document.getElementById("uni-popup").style.display = "none";
+</script>
+</body>
+</html>
